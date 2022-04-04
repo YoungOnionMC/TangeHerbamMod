@@ -1,4 +1,4 @@
-package java.tangeherbam;
+package tangeherbam;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -6,7 +6,7 @@ import net.minecraftforge.fml.common.event.FMLConstructionEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-import java.tangeherbam.common.CommonProxy;
+import tangeherbam.common.CommonProxy;
 
 public class THMod {
     @Mod.Instance("TangeHerbamAddon")

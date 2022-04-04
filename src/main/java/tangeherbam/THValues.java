@@ -1,4 +1,4 @@
-package java.tangeherbam;
+package tangeherbam;
 
 public class THValues {
 
