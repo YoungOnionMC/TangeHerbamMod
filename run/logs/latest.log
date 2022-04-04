@@ -1,163 +1,292 @@
-[13:14:20] [main/INFO] [GradleStart]: Extra: []
-[13:14:20] [main/INFO] [GradleStart]: Found and added coremod: team.chisel.ctm.client.asm.CTMCorePlugin
-[13:14:20] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/James/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[13:14:20] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[13:14:20] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[13:14:20] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[13:14:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[13:14:20] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
-[13:14:20] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_291, running on Windows 10:amd64:10.0, installed at E:\Program Files\Java\jdk1.8.0_291\jre
-[13:14:20] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[13:14:20] [main/ERROR] [FML]: Full: C:\Users\James\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[13:14:20] [main/ERROR] [FML]: Trimmed: c:/users/james/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[13:14:20] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[13:14:20] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[13:14:20] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[13:14:20] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[13:14:20] [main/INFO] [FML]: Found a command line coremod : team.chisel.ctm.client.asm.CTMCorePlugin
-[13:14:20] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[13:14:20] [main/INFO] [FML]: Ignoring missing certificate for coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin), as this is probably a dev workspace
-[13:14:20] [main/INFO] [FML]: Searching C:\Dev\MC\TactumGramenAddon\run\.\mods for mods
-[13:14:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in AppleCore-mc1.12.2-3.4.0.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[13:14:20] [main/WARN] [FML]: The coremod AppleCore (squeek.applecore.AppleCore) is not signed!
-[13:14:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Aroma1997Core-1.12.2-2.0.0.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[13:14:20] [main/WARN] [FML]: The coremod aroma1997.core.coremod.CoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[13:14:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-1.0.2.31.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[13:14:20] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[13:14:20] [main/WARN] [FML]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
-[13:14:20] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from DynamicSurroundings-1.12.2-3.6.1.0.jar
-[13:14:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in gregtech-1.12.2-2.1.4-beta.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[13:14:20] [main/WARN] [FML]: The coremod GregTechLoadingPlugin (gregtech.core.GregTechLoadingPlugin) is not signed!
-[13:14:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in InventoryTweaks-1.63.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[13:14:20] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[13:14:20] [main/WARN] [FML]: The coremod micdoodle8.mods.miccore.MicdoodlePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[13:14:20] [main/WARN] [FML]: The coremod MicdoodlePlugin (micdoodle8.mods.miccore.MicdoodlePlugin) is not signed!
-[13:14:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[13:14:20] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[13:14:20] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[13:14:20] [main/INFO] [GradleStart]: Injecting location in coremod team.chisel.ctm.client.asm.CTMCorePlugin
-[13:14:20] [main/INFO] [GradleStart]: Injecting location in coremod squeek.applecore.AppleCore
-[13:14:20] [main/INFO] [GradleStart]: Injecting location in coremod aroma1997.core.coremod.CoreMod
-[13:14:20] [main/INFO] [GradleStart]: Injecting location in coremod team.chisel.ctm.client.asm.CTMCorePlugin
-[13:14:20] [main/INFO] [GradleStart]: Injecting location in coremod gregtech.core.GregTechLoadingPlugin
-[13:14:20] [main/INFO] [GradleStart]: Injecting location in coremod invtweaks.forge.asm.FMLPlugin
-[13:14:20] [main/INFO] [GradleStart]: Injecting location in coremod micdoodle8.mods.miccore.MicdoodlePlugin
-[13:14:20] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:14:20] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[13:14:21] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Dev/MC/TactumGramenAddon/run/./mods/DynamicSurroundings-1.12.2-3.6.1.0.jar Service=LaunchWrapper Env=CLIENT
-[13:14:21] [main/INFO] [mixin]: Compatibility level set to JAVA_8
-[13:14:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[13:14:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[13:14:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:14:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:14:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:14:21] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[13:14:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:14:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:14:21] [main/INFO] [Aroma1997Core]: Finished data injection.
-[13:14:21] [main/INFO] [Aroma1997Core]: Finished data injection.
-[13:14:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:14:21] [main/INFO] [STDOUT]: [micdoodle8.mods.miccore.MicdoodlePlugin:getASMTransformerClass:99]: Successfully Registered Transformer
-[13:14:21] [main/INFO] [STDOUT]: [micdoodle8.mods.miccore.MicdoodlePlugin:injectData:292]: [Micdoodle8Core]: Patching game...
-[13:14:21] [main/INFO] [STDOUT]: [micdoodle8.mods.miccore.MicdoodlePlugin:injectData:292]: [Micdoodle8Core]: Patching game...
-[13:14:21] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
-[13:14:21] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@1abfe081
-[13:14:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[13:14:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:14:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:14:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[13:14:21] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
-[13:14:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:14:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:14:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:14:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[13:14:21] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[13:14:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[13:14:21] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[13:14:21] [main/INFO] [mixin]: Remapping refMap mixins.dsurround.refmap.json using C:\Users\James\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_stable\39\1.12.2\srgs\srg-mcp.srg
-[13:14:22] [main/INFO] [GregTechTransformer]: Patched method renderWorldPass(IFJ)V in net/minecraft/client/renderer/EntityRenderer successfully
-[13:14:22] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[13:14:22] [main/INFO] [GregTechTransformer]: Patched method playEvent(Lnet/minecraft/entity/player/EntityPlayer;ILnet/minecraft/util/math/BlockPos;I)V in net/minecraft/world/World successfully
-[13:14:22] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
-[13:14:22] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
-[13:14:22] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
-[13:14:22] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
-[13:14:22] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player101
-[13:14:22] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
-[13:14:22] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
-[13:14:22] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
-[13:14:22] [Client thread/ERROR] [LaunchWrapper]: Unable to launch
-java.lang.reflect.InvocationTargetException: null
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_291]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_291]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_291]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_291]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_291]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_291]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_291]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_291]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: java.lang.NoClassDefFoundError: net/minecraft/block/Block
-	at net.minecraftforge.registries.GameData.init(GameData.java:145) ~[GameData.class:?]
-	at net.minecraftforge.registries.GameData.<clinit>(GameData.java:132) ~[GameData.class:?]
-	at net.minecraft.util.SoundEvent.<clinit>(SoundEvent.java:9) ~[SoundEvent.class:?]
-	at net.minecraft.init.Bootstrap.register(Bootstrap.java:570) ~[Bootstrap.class:?]
-	at net.minecraft.client.Minecraft.<init>(Minecraft.java:409) ~[Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) ~[Main.class:?]
-	... 12 more
-Caused by: java.lang.ClassNotFoundException: net.minecraft.block.Block
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_291]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_291]
-	at net.minecraftforge.registries.GameData.init(GameData.java:145) ~[GameData.class:?]
-	at net.minecraftforge.registries.GameData.<clinit>(GameData.java:132) ~[GameData.class:?]
-	at net.minecraft.util.SoundEvent.<clinit>(SoundEvent.java:9) ~[SoundEvent.class:?]
-	at net.minecraft.init.Bootstrap.register(Bootstrap.java:570) ~[Bootstrap.class:?]
-	at net.minecraft.client.Minecraft.<init>(Minecraft.java:409) ~[Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) ~[Main.class:?]
-	... 12 more
-Caused by: net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerException: Exception in class transformer team.chisel.ctm.client.asm.CTMTransformer@4ed4a7e4 from coremod CTMCorePlugin
-	at net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerWrapper.transform(ASMTransformerWrapper.java:260) ~[forgeSrc-1.12.2-14.23.5.2847.jar:?]
-	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_291]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_291]
-	at net.minecraftforge.registries.GameData.init(GameData.java:145) ~[GameData.class:?]
-	at net.minecraftforge.registries.GameData.<clinit>(GameData.java:132) ~[GameData.class:?]
-	at net.minecraft.util.SoundEvent.<clinit>(SoundEvent.java:9) ~[SoundEvent.class:?]
-	at net.minecraft.init.Bootstrap.register(Bootstrap.java:570) ~[Bootstrap.class:?]
-	at net.minecraft.client.Minecraft.<init>(Minecraft.java:409) ~[Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) ~[Main.class:?]
-	... 12 more
-Caused by: java.lang.ClassCastException: org.objectweb.asm.tree.MethodInsnNode cannot be cast to org.objectweb.asm.tree.VarInsnNode
-	at team.chisel.ctm.client.asm.CTMTransformer.transform(CTMTransformer.java:70) ~[CTM-MC1.12.2-1.0.2.31.jar:?]
-	at net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerWrapper.transform(ASMTransformerWrapper.java:256) ~[forgeSrc-1.12.2-14.23.5.2847.jar:?]
-	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_291]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_291]
-	at net.minecraftforge.registries.GameData.init(GameData.java:145) ~[GameData.class:?]
-	at net.minecraftforge.registries.GameData.<clinit>(GameData.java:132) ~[GameData.class:?]
-	at net.minecraft.util.SoundEvent.<clinit>(SoundEvent.java:9) ~[SoundEvent.class:?]
-	at net.minecraft.init.Bootstrap.register(Bootstrap.java:570) ~[Bootstrap.class:?]
-	at net.minecraft.client.Minecraft.<init>(Minecraft.java:409) ~[Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) ~[Main.class:?]
-	... 12 more
-[13:14:22] [Client thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: java.lang.reflect.InvocationTargetException
-[13:14:22] [Client thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[13:14:22] [Client thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[13:14:22] [Client thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[13:14:22] [Client thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.reflect.Method.invoke(Method.java:498)
-[13:14:22] [Client thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
-[13:14:22] [Client thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at GradleStart.main(GradleStart.java:25)
-[13:14:22] [Client thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: Caused by: net.minecraftforge.fml.relauncher.FMLSecurityManager$ExitTrappedException
-[13:14:22] [Client thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at net.minecraftforge.fml.relauncher.FMLSecurityManager.checkPermission(FMLSecurityManager.java:49)
-[13:14:22] [Client thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at java.lang.SecurityManager.checkExit(SecurityManager.java:761)
-[13:14:22] [Client thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at java.lang.Runtime.exit(Runtime.java:107)
-[13:14:22] [Client thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at java.lang.System.exit(System.java:971)
-[13:14:22] [Client thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:138)
-[13:14:22] [Client thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
-[13:14:22] [Client thread/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	... 6 more
+[17:55:32] [main/INFO] [GradleStart]: Extra: []
+[17:55:32] [main/INFO] [GradleStart]: Found and added coremod: team.chisel.ctm.client.asm.CTMCorePlugin
+[17:55:32] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/James/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[17:55:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:55:32] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:55:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:55:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:55:32] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[17:55:32] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_291, running on Windows 10:amd64:10.0, installed at E:\Program Files\Java\jdk1.8.0_291\jre
+[17:55:32] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[17:55:32] [main/ERROR] [FML]: Full: C:\Users\James\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[17:55:32] [main/ERROR] [FML]: Trimmed: c:/users/james/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[17:55:32] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[17:55:32] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[17:55:33] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[17:55:33] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[17:55:33] [main/INFO] [FML]: Found a command line coremod : team.chisel.ctm.client.asm.CTMCorePlugin
+[17:55:33] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[17:55:33] [main/INFO] [FML]: Ignoring missing certificate for coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin), as this is probably a dev workspace
+[17:55:33] [main/INFO] [FML]: Searching C:\Dev\MC\TactumGramenAddon\run\.\mods for mods
+[17:55:33] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in AppleCore-mc1.12.2-3.4.0.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[17:55:33] [main/WARN] [FML]: The coremod AppleCore (squeek.applecore.AppleCore) is not signed!
+[17:55:33] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Aroma1997Core-1.12.2-2.0.0.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[17:55:33] [main/WARN] [FML]: The coremod aroma1997.core.coremod.CoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[17:55:33] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from DynamicSurroundings-1.12.2-3.6.1.0.jar
+[17:55:33] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in InventoryTweaks-1.63.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[17:55:33] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[17:55:33] [main/WARN] [FML]: The coremod micdoodle8.mods.miccore.MicdoodlePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[17:55:33] [main/WARN] [FML]: The coremod MicdoodlePlugin (micdoodle8.mods.miccore.MicdoodlePlugin) is not signed!
+[17:55:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:55:33] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[17:55:33] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[17:55:33] [main/INFO] [GradleStart]: Injecting location in coremod team.chisel.ctm.client.asm.CTMCorePlugin
+[17:55:33] [main/INFO] [GradleStart]: Injecting location in coremod squeek.applecore.AppleCore
+[17:55:33] [main/INFO] [GradleStart]: Injecting location in coremod aroma1997.core.coremod.CoreMod
+[17:55:33] [main/INFO] [GradleStart]: Injecting location in coremod invtweaks.forge.asm.FMLPlugin
+[17:55:33] [main/INFO] [GradleStart]: Injecting location in coremod micdoodle8.mods.miccore.MicdoodlePlugin
+[17:55:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:55:33] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[17:55:33] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Dev/MC/TactumGramenAddon/run/./mods/DynamicSurroundings-1.12.2-3.6.1.0.jar Service=LaunchWrapper Env=CLIENT
+[17:55:33] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[17:55:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:55:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[17:55:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:55:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:55:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:55:34] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:55:34] [main/INFO] [Aroma1997Core]: Finished data injection.
+[17:55:34] [main/INFO] [Aroma1997Core]: Finished data injection.
+[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:55:34] [main/INFO] [STDOUT]: [micdoodle8.mods.miccore.MicdoodlePlugin:getASMTransformerClass:99]: Successfully Registered Transformer
+[17:55:34] [main/INFO] [STDOUT]: [micdoodle8.mods.miccore.MicdoodlePlugin:injectData:292]: [Micdoodle8Core]: Patching game...
+[17:55:34] [main/INFO] [STDOUT]: [micdoodle8.mods.miccore.MicdoodlePlugin:injectData:292]: [Micdoodle8Core]: Patching game...
+[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[17:55:34] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@129bd55d
+[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[17:55:34] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
+[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:55:34] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:55:34] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[17:55:34] [main/INFO] [mixin]: Remapping refMap mixins.dsurround.refmap.json using C:\Users\James\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_stable\39\1.12.2\srgs\srg-mcp.srg
+[17:55:34] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[17:55:35] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[17:55:35] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[17:55:35] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player672
+[17:55:35] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[17:55:35] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[17:55:36] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[17:55:37] [Client thread/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_291, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 973791936 bytes (928 MB) / 1119354880 bytes (1067 MB) up to 7618953216 bytes (7266 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+TransformLoader (DynamicSurroundings-1.12.2-3.6.1.0.jar)
+  
+Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  invtweaks.forge.asm.ContainerTransformer
+MicdoodlePlugin (MicdoodleCore-1.12.2-4.0.2.280.jar)
+  micdoodle8.mods.miccore.MicdoodleTransformer
+AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
+  squeek.applecore.asm.TransformerModuleHandler
+CoreMod (Aroma1997Core-1.12.2-2.0.0.2.jar)
+  
+CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.14761 Compatibility Profile Context 21.30.23.04 30.0.13023.4001' Renderer: 'Radeon RX 580 Series'
+[17:55:37] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
+[17:55:37] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[17:55:37] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[17:55:37] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[17:55:38] [Client thread/INFO] [FML]: Searching C:\Dev\MC\TactumGramenAddon\run\.\mods for mods
+[17:55:38] [Client thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
+[17:55:39] [Client thread/WARN] [FML]: Mod aroma1997core is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.0.0.2
+[17:55:39] [Client thread/WARN] [FML]: Mod aromabackup is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.1.1.4
+[17:55:39] [Client thread/WARN] [FML]: Mod aromabackuprecovery is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.1.1.4
+[17:55:39] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 74261000 nanos
+[17:55:39] [Client thread/WARN] [FML]: Mod tfc is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.7.23.181
+[17:55:39] [Client thread/INFO] [FML]: Forge Mod Loader has identified 39 mods to load
+[17:55:40] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, micdoodlecore, codechickenlib, jei, theoneprobe, ctgui, crafttweaker, ctm, tangeherbamaddon, akashictome, applecore, appleskin, appliedenergistics2, aroma1997core, aromabackup, aromabackuprecovery, autoreglib, base, buildinggadgets, chisel, contenttweaker, controlling, dsurround, elevatorid, forestry, galacticraftplanets, galacticraftcore, inventorytweaks, journeymap, keywizard, mcwbridges, neat, spiceoflife, tfc, orelib, solcarrot] at CLIENT
+[17:55:40] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, micdoodlecore, codechickenlib, jei, theoneprobe, ctgui, crafttweaker, ctm, tangeherbamaddon, akashictome, applecore, appleskin, appliedenergistics2, aroma1997core, aromabackup, aromabackuprecovery, autoreglib, base, buildinggadgets, chisel, contenttweaker, controlling, dsurround, elevatorid, forestry, galacticraftplanets, galacticraftcore, inventorytweaks, journeymap, keywizard, mcwbridges, neat, spiceoflife, tfc, orelib, solcarrot] at SERVER
+[17:55:40] [Client thread/ERROR] [FML]: The mod codechickenlib is expecting signature f1850c39b2516232a2108a7bd84d1cb5df93b261 for source CodeChickenLib-1.12.2-3.2.3.358.jar, however there is no signature matching that description
+[17:55:40] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
+[17:55:40] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
+[17:55:40] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
+[17:55:40] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
+[17:55:41] [Client thread/ERROR] [FML]: The mod appliedenergistics2 is expecting signature dfa4d3ac143316c6f32aa1a1beda1e34d42132e5 for source appliedenergistics2-rv6-stable-7-extended_life-v51e.jar, however there is no signature matching that description
+[17:55:43] [Client thread/WARN] [solcarrot]: Invalid Fingerprint!
+[17:55:43] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:The One Probe, FMLFileResourcePack:CT-GUI, FMLFileResourcePack:CraftTweaker2, FMLFileResourcePack:CTM, FMLFileResourcePack:TangeHerbamAddon, FMLFileResourcePack:Akashic Tome, FMLFileResourcePack:AppleCore, FMLFileResourcePack:AppleSkin, FMLFileResourcePack:AE2 Unofficial Extended Life, FMLFileResourcePack:Aroma1997Core, FMLFileResourcePack:AromaBackup, FMLFileResourcePack:AromaBackuprecovery, FMLFileResourcePack:AutoRegLib, FMLFileResourcePack:B.A.S.E, FMLFileResourcePack:Building Gadgets, FMLFileResourcePack:Chisel, FMLFileResourcePack:ContentTweaker, FMLFileResourcePack:Controlling, FMLFileResourcePack:Dynamic Surroundings, FMLFileResourcePack:Elevator Mod, FMLFileResourcePack:Forestry, FMLFileResourcePack:Galacticraft Planets, FMLFileResourcePack:Galacticraft Core, FMLFileResourcePack:Inventory Tweaks, FMLFileResourcePack:JourneyMap, FMLFileResourcePack:Keyboard Wizard, FMLFileResourcePack:Macaw's Bridges, FMLFileResourcePack:Neat, FMLFileResourcePack:The Spice of Life, FMLFileResourcePack:TerraFirmaCraft, FMLFileResourcePack:OreLib Support Mod, FMLFileResourcePack:Spice of Life: Carrot Edition, resources
+[17:55:43] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[17:55:43] [Client thread/INFO] [FML]: Found 1479 ObjectHolder annotations
+[17:55:43] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[17:55:43] [Client thread/INFO] [FML]: Found 2 ItemStackHolder annotations
+[17:55:43] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[17:55:43] [Forge Version Check/INFO] [forge.VersionCheck]: [dsurround] Starting version check at https://raw.githubusercontent.com/OreCruncher/DynamicSurroundings/master/version.json
+[17:55:44] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
+[17:55:44] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
+[17:55:44] [Forge Version Check/INFO] [forge.VersionCheck]: [buildinggadgets] Starting version check at https://github.com/Direwolf20-MC/BuildingGadgets/raw/master/update.json
+[17:55:45] [Client thread/INFO] [forestry]: Module HarvestCraft Module failed to load: HarvestCraft not found
+[17:55:45] [Client thread/INFO] [forestry]: Module Natura Module failed to load: Natura not found
+[17:55:45] [Client thread/INFO] [forestry]: Module TechReborn Module failed to load: TechReborn not found
+[17:55:45] [Client thread/INFO] [forestry]: Module BuildCraft 6 Statements Module failed to load: Compatible BuildCraftAPI|statements version not found
+[17:55:45] [Client thread/INFO] [forestry]: Module Mystical Agriculture Module failed to load: Mystical Agriculture not found
+[17:55:45] [Client thread/INFO] [forestry]: Module IndustrialCraft2 Module failed to load: IndustrialCraft2 not found
+[17:55:45] [Client thread/INFO] [forestry]: Module ImmersiveEngineering Module failed to load: ImmersiveEngineering not found
+[17:55:45] [Client thread/INFO] [forestry]: Module EnderIO Module failed to load: EnderIO not found
+[17:55:45] [Client thread/INFO] [forestry]: Module rustic Module failed to load: Rustic not found
+[17:55:45] [Client thread/INFO] [forestry]: Module Actually Additions Module failed to load: Actually Additions not found
+[17:55:45] [Client thread/INFO] [forestry]: Module BuildCraft 6 Transport Module failed to load: buildcrafttransport not found
+[17:55:45] [Client thread/INFO] [forestry]: Module Extra Utilities Module failed to load: Extra Utilities not found
+[17:55:45] [Client thread/INFO] [forestry]: Module BuildCraft 6 Fuels Module failed to load: Compatible BuildCraftAPI|fuels version not found
+[17:55:45] [Client thread/INFO] [forestry]: Module BiomesOPlenty Module failed to load: BiomesOPlenty not found
+[17:55:45] [Client thread/INFO] [forestry]: Module Better With Mods Module failed to load: Better With Mods not found
+[17:55:45] [Client thread/INFO] [forestry]: Module BuildCraft 6 Recipes Module failed to load: Compatible BuildCraftAPI|recipes version not found
+[17:55:45] [Client thread/INFO] [forestry]: Module Roots Module failed to load: Roots not found
+[17:55:45] [Forge Version Check/INFO] [forge.VersionCheck]: [buildinggadgets] Found status: AHEAD Target: null
+[17:55:45] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[17:55:46] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2859
+[17:55:46] [Forge Version Check/INFO] [forge.VersionCheck]: [orelib] Starting version check at https://raw.githubusercontent.com/OreCruncher/OreLib/master/version.json
+[17:55:46] [Forge Version Check/INFO] [forge.VersionCheck]: [orelib] Found status: UP_TO_DATE Target: null
+[17:55:47] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:629]: ---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  TransformLoader (DynamicSurroundings-1.12.2-3.6.1.0.jar)
+  Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  MicdoodlePlugin (MicdoodleCore-1.12.2-4.0.2.280.jar)
+  AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
+  CoreMod (Aroma1997Core-1.12.2-2.0.0.2.jar)
+  CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+Contact their authors BEFORE contacting forge
+
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 4/4/22 5:55 PM
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from TangeHerbamAddon (tangeherbamaddon)
+Caused by: java.lang.NullPointerException
+	at tangeherbam.THMod.preInit(THMod.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:639)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:629)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+	at net.minecraft.client.Minecraft.init(Minecraft.java:514)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_291, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1731759888 bytes (1651 MB) / 2089811968 bytes (1993 MB) up to 7618953216 bytes (7266 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 39 mods loaded, 39 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                  | Version                         | Source                                                  | Signature                                |
+	|:----- |:------------------- |:------------------------------- |:------------------------------------------------------- |:---------------------------------------- |
+	| LCH   | minecraft           | 1.12.2                          | minecraft.jar                                           | None                                     |
+	| LCH   | mcp                 | 9.42                            | minecraft.jar                                           | None                                     |
+	| LCH   | FML                 | 8.0.99.99                       | forgeSrc-1.12.2-14.23.5.2847.jar                        | None                                     |
+	| LCH   | forge               | 14.23.5.2847                    | forgeSrc-1.12.2-14.23.5.2847.jar                        | None                                     |
+	| LCH   | micdoodlecore       |                                 | minecraft.jar                                           | None                                     |
+	| LCH   | codechickenlib      | 3.2.3.358                       | CodeChickenLib-1.12.2-3.2.3.358.jar                     | None                                     |
+	| LCH   | jei                 | 4.15.0.291                      | jei_1.12.2-4.15.0.291.jar                               | None                                     |
+	| LCH   | theoneprobe         | 1.4.23                          | TheOneProbe-1.12-1.12-1.4.23-16.jar                     | None                                     |
+	| LCH   | crafttweaker        | 4.1.20                          | CraftTweaker2-MC1120-Main-1.12-4.1.20.554.jar           | None                                     |
+	| LCH   | ctgui               | 1.0.0                           | CraftTweaker2-MC1120-Main-1.12-4.1.20.554.jar           | None                                     |
+	| LCH   | forestry            | 5.8.2.387                       | forestry_1.12.2-5.8.2.387.jar                           | None                                     |
+	| LCE   | tangeherbamaddon    | 1.0                             | TactusGramenAddon-1.12.2-1.0.jar                        | None                                     |
+	| LC    | ctm                 | MC1.12.2-1.0.2.31               | CTM-MC1.12.2-1.0.2.31.jar                               | None                                     |
+	| LC    | akashictome         | 1.2-12                          | AkashicTome-1.2-12.jar                                  | None                                     |
+	| LC    | applecore           | 3.4.0                           | AppleCore-mc1.12.2-3.4.0.jar                            | None                                     |
+	| LC    | appleskin           | 1.0.14                          | AppleSkin-mc1.12-1.0.14.jar                             | None                                     |
+	| LC    | appliedenergistics2 | rv6-stable-7-extended_life-v51e | appliedenergistics2-rv6-stable-7-extended_life-v51e.jar | None                                     |
+	| LC    | aroma1997core       | 2.0.0.2                         | Aroma1997Core-1.12.2-2.0.0.2.jar                        | dfbfe4c473253d8c5652417689848f650b2cbe32 |
+	| LC    | aromabackup         | 2.1.1.4                         | AromaBackup-1.12.2-2.1.1.4.jar                          | dfbfe4c473253d8c5652417689848f650b2cbe32 |
+	| LC    | aromabackuprecovery | 2.1.1.4                         | AromaBackup-1.12.2-2.1.1.4.jar                          | dfbfe4c473253d8c5652417689848f650b2cbe32 |
+	| LC    | autoreglib          | 1.3-32                          | AutoRegLib-1.3-32.jar                                   | None                                     |
+	| LC    | base                | 3.14.0                          | base-1.12.2-3.14.0.jar                                  | None                                     |
+	| LC    | buildinggadgets     | 2.8.4                           | BuildingGadgets-2.8.4.jar                               | None                                     |
+	| LC    | chisel              | MC1.12.2-1.0.2.45               | Chisel-MC1.12.2-1.0.2.45.jar                            | None                                     |
+	| LC    | contenttweaker      | 1.12.2-4.10.0                   | ContentTweaker-1.12.2-4.10.0.jar                        | None                                     |
+	| LC    | controlling         | 3.0.10                          | Controlling-3.0.10.jar                                  | None                                     |
+	| LC    | galacticraftcore    | 4.0.2.280                       | GalacticraftCore-1.12.2-4.0.2.280.jar                   | None                                     |
+	| LC    | orelib              | 3.6.0.1                         | OreLib-1.12.2-3.6.0.1.jar                               | 7a2128d395ad96ceb9d9030fbd41d035b435753a |
+	| LC    | dsurround           | 3.6.1.0                         | DynamicSurroundings-1.12.2-3.6.1.0.jar                  | 7a2128d395ad96ceb9d9030fbd41d035b435753a |
+	| LC    | elevatorid          | 1.3.14                          | ElevatorMod-1.12.2-1.3.14.jar                           | None                                     |
+	| LC    | galacticraftplanets | 4.0.2.280                       | Galacticraft-Planets-1.12.2-4.0.2.280.jar               | None                                     |
+	| LC    | inventorytweaks     | 1.63+release.109.220f184        | InventoryTweaks-1.63.jar                                | 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe |
+	| LC    | journeymap          | 1.12.2-5.7.1                    | journeymap-1.12.2-5.7.1.jar                             | None                                     |
+	| LC    | keywizard           | 1.12.2-1.7.3                    | keywizard-1.12.2-1.7.3.jar                              | None                                     |
+	| LC    | mcwbridges          | 1.0.6                           | mcw-bridges-1.0.6b-mc1.12.2.jar                         | None                                     |
+	| LC    | neat                | 1.4-17                          | Neat 1.4-17.jar                                         | None                                     |
+	| LC    | spiceoflife         | 1.3.12                          | SpiceOfLife-mc1.12-1.3.12.jar                           | None                                     |
+	| LC    | tfc                 | 1.7.23.181                      | TerraFirmaCraft-MC1.12.2-1.7.23.181.jar                 | None                                     |
+	| LC    | solcarrot           | 1.8.4                           | solcarrot-1.12.2-1.8.4.jar                              | None                                     |
+
+	Loaded coremods (and transformers): 
+TransformLoader (DynamicSurroundings-1.12.2-3.6.1.0.jar)
+  
+Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  invtweaks.forge.asm.ContainerTransformer
+MicdoodlePlugin (MicdoodleCore-1.12.2-4.0.2.280.jar)
+  micdoodle8.mods.miccore.MicdoodleTransformer
+AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
+  squeek.applecore.asm.TransformerModuleHandler
+CoreMod (Aroma1997Core-1.12.2-2.0.0.2.jar)
+  
+CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.14761 Compatibility Profile Context 21.30.23.04 30.0.13023.4001' Renderer: 'Radeon RX 580 Series'
+	AE2 Version: stable rv6-stable-7-extended_life-v51e for Forge 14.23.5.2847
+[17:55:47] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:629]: #@!@# Game crashed! Crash report saved to: #@!@# C:\Dev\MC\TactumGramenAddon\run\.\crash-reports\crash-2022-04-04_17.55.47-client.txt

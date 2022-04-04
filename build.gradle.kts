@@ -87,7 +87,6 @@ repositories {
 dependencies {
 
     // These 7 will always be in game
-    //"deobfCompile"("gregtechce:gregtech:$mcVersion:${config["gregtech.version"]}")
     "deobfCompile"("codechicken-lib-1-8:CodeChickenLib-$mcVersion:${config["ccl.version"]}:universal")
     "deobfCompile"("codechicken:ChickenASM:$shortVersion-${config["chickenasm.version"]}")
     "deobfCompile"("mezz.jei:jei_$mcVersion:${config["jei.version"]}")
@@ -96,6 +95,15 @@ dependencies {
     "deobfCompile"("team.chisel.ctm:CTM:MC$mcVersion-${config["ctm.version"]}")
 
     "provided"(files("libs/gregtech-1.12.2-${config["gregtech.version"]}.jar"))
+
+    //"provided"(files("libs/gregtech-1.12.2-${config["gregtech.version"]}.jar"))
+    //"provided"(files("libs/CTM-MC1.12.2-${config["ctm.version"]}.jar"))
+    //"provided"(files("libs/jei_$mcVersion:${config["jei.version"]}"))
+    //"provided"(files("libs/CodeChickenLib-$mcVersion-${config["ccl.version"]}-universal"))
+    //"provided"(files("libs/theoneprobe-$shortVersion-${config["top.version"]}.jar"))
+    //"provided"(files("libs/CraftTweaker2-$shortVersion-${config["crafttweaker.version"]}.jar"))
+    //"provided"(files("libs/gregtech-1.12.2-${config["gregtech.version"]}.jar"))
+    //"provided"(files("libs/gregtech-1.12.2-${config["gregtech.version"]}.jar"))
 
     // JUnit testing used for GitHub Actions
     "testImplementation"("junit:junit:${config["junit.version"]}")
