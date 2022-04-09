@@ -1,0 +1,20 @@
+{
+  "tfc:main/root": {
+    "criteria": {
+      "in-game": "2022-04-05 17:19:33 -0600"
+    },
+    "done": true
+  },
+  "tfc:main/pick_rock": {
+    "criteria": {
+      "quartzite": "2022-04-05 17:22:24 -0600"
+    },
+    "done": true
+  },
+  "tfc:world/geologist": {
+    "criteria": {
+      "quartzite": "2022-04-05 17:22:24 -0600"
+    },
+    "done": false
+  }
+}

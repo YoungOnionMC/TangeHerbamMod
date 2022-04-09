@@ -16,7 +16,7 @@ public class THMod {
     @Mod.Instance("TangeHerbamAddon")
     public static THMod instance;
 
-    @SidedProxy(modId = "tangeherbam", clientSide = "tangeherbam.client.ClientProxy", serverSide = "tangeherbam.common.CommonProxy")
+    @SidedProxy(modId = "tangeherbamaddon", clientSide = "tangeherbam.client.ClientProxy", serverSide = "tangeherbam.common.CommonProxy")
     public static CommonProxy proxy;
 
     @Mod.EventHandler

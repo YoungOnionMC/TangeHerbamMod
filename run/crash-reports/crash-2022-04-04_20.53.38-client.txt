@@ -1,0 +1,167 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  TransformLoader (DynamicSurroundings-1.12.2-3.6.1.0.jar)
+  Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  MicdoodlePlugin (MicdoodleCore-1.12.2-4.0.2.280.jar)
+  AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
+  CoreMod (Aroma1997Core-1.12.2-2.0.0.2.jar)
+  CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+Contact their authors BEFORE contacting forge
+
+// You should try our sister game, Minceraft!
+
+Time: 4/4/22 8:53 PM
+Description: Initializing game
+
+java.lang.IllegalAccessError: tried to access field net.minecraft.client.model.ModelRenderer.textureOffsetX from class net.dries007.tfc.client.model.ModelIngotPile
+	at net.dries007.tfc.client.model.ModelIngotPile.<init>(ModelIngotPile.java:30)
+	at net.dries007.tfc.client.render.TESRIngotPile.<init>(TESRIngotPile.java:23)
+	at net.dries007.tfc.client.ClientRegisterEvents.registerModels(ClientRegisterEvents.java:243)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_100_ClientRegisterEvents_registerModels_ModelRegistryEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.fml.client.FMLClientHandler.fireSidedRegistryEvents(FMLClientHandler.java:1062)
+	at net.minecraftforge.fml.common.FMLCommonHandler.fireSidedRegistryEvents(FMLCommonHandler.java:764)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:631)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+	at net.minecraft.client.Minecraft.init(Minecraft.java:514)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at net.dries007.tfc.client.model.ModelIngotPile.<init>(ModelIngotPile.java:30)
+	at net.dries007.tfc.client.render.TESRIngotPile.<init>(TESRIngotPile.java:23)
+	at net.dries007.tfc.client.ClientRegisterEvents.registerModels(ClientRegisterEvents.java:243)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_100_ClientRegisterEvents_registerModels_ModelRegistryEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.fml.client.FMLClientHandler.fireSidedRegistryEvents(FMLClientHandler.java:1062)
+	at net.minecraftforge.fml.common.FMLCommonHandler.fireSidedRegistryEvents(FMLCommonHandler.java:764)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:631)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+	at net.minecraft.client.Minecraft.init(Minecraft.java:514)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_291, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1807720656 bytes (1723 MB) / 2564292608 bytes (2445 MB) up to 7618953216 bytes (7266 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 39 mods loaded, 39 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                  | Version                         | Source                                                  | Signature                                |
+	|:----- |:------------------- |:------------------------------- |:------------------------------------------------------- |:---------------------------------------- |
+	| LCH   | minecraft           | 1.12.2                          | minecraft.jar                                           | None                                     |
+	| LCH   | mcp                 | 9.42                            | minecraft.jar                                           | None                                     |
+	| LCH   | FML                 | 8.0.99.99                       | forgeSrc-1.12.2-14.23.5.2847.jar                        | None                                     |
+	| LCH   | forge               | 14.23.5.2847                    | forgeSrc-1.12.2-14.23.5.2847.jar                        | None                                     |
+	| LCH   | micdoodlecore       |                                 | minecraft.jar                                           | None                                     |
+	| LCH   | codechickenlib      | 3.2.3.358                       | CodeChickenLib-1.12.2-3.2.3.358.jar                     | None                                     |
+	| LCH   | jei                 | 4.15.0.291                      | jei_1.12.2-4.15.0.291.jar                               | None                                     |
+	| LCH   | theoneprobe         | 1.4.23                          | TheOneProbe-1.12-1.12-1.4.23-16.jar                     | None                                     |
+	| LCH   | crafttweaker        | 4.1.20                          | CraftTweaker2-MC1120-Main-1.12-4.1.20.554.jar           | None                                     |
+	| LCH   | ctgui               | 1.0.0                           | CraftTweaker2-MC1120-Main-1.12-4.1.20.554.jar           | None                                     |
+	| LCH   | forestry            | 5.8.2.387                       | forestry_1.12.2-5.8.2.387.jar                           | None                                     |
+	| LCH   | tangeherbamaddon    | 1.0                             | TactusGramenAddon-1.12.2-1.0.jar                        | None                                     |
+	| LCH   | ctm                 | MC1.12.2-1.0.2.31               | CTM-MC1.12.2-1.0.2.31.jar                               | None                                     |
+	| LCH   | akashictome         | 1.2-12                          | AkashicTome-1.2-12.jar                                  | None                                     |
+	| LCH   | applecore           | 3.4.0                           | AppleCore-mc1.12.2-3.4.0.jar                            | None                                     |
+	| LCH   | appleskin           | 1.0.14                          | AppleSkin-mc1.12-1.0.14.jar                             | None                                     |
+	| LCH   | appliedenergistics2 | rv6-stable-7-extended_life-v51e | appliedenergistics2-rv6-stable-7-extended_life-v51e.jar | None                                     |
+	| LCH   | aroma1997core       | 2.0.0.2                         | Aroma1997Core-1.12.2-2.0.0.2.jar                        | dfbfe4c473253d8c5652417689848f650b2cbe32 |
+	| LCH   | aromabackup         | 2.1.1.4                         | AromaBackup-1.12.2-2.1.1.4.jar                          | dfbfe4c473253d8c5652417689848f650b2cbe32 |
+	| LCH   | aromabackuprecovery | 2.1.1.4                         | AromaBackup-1.12.2-2.1.1.4.jar                          | dfbfe4c473253d8c5652417689848f650b2cbe32 |
+	| LCH   | autoreglib          | 1.3-32                          | AutoRegLib-1.3-32.jar                                   | None                                     |
+	| LCH   | base                | 3.14.0                          | base-1.12.2-3.14.0.jar                                  | None                                     |
+	| LCH   | buildinggadgets     | 2.8.4                           | BuildingGadgets-2.8.4.jar                               | None                                     |
+	| LCH   | chisel              | MC1.12.2-1.0.2.45               | Chisel-MC1.12.2-1.0.2.45.jar                            | None                                     |
+	| LCH   | contenttweaker      | 1.12.2-4.10.0                   | ContentTweaker-1.12.2-4.10.0.jar                        | None                                     |
+	| LCH   | controlling         | 3.0.10                          | Controlling-3.0.10.jar                                  | None                                     |
+	| LCH   | galacticraftcore    | 4.0.2.280                       | GalacticraftCore-1.12.2-4.0.2.280.jar                   | None                                     |
+	| LCH   | orelib              | 3.6.0.1                         | OreLib-1.12.2-3.6.0.1.jar                               | 7a2128d395ad96ceb9d9030fbd41d035b435753a |
+	| LCH   | dsurround           | 3.6.1.0                         | DynamicSurroundings-1.12.2-3.6.1.0.jar                  | 7a2128d395ad96ceb9d9030fbd41d035b435753a |
+	| LCH   | elevatorid          | 1.3.14                          | ElevatorMod-1.12.2-1.3.14.jar                           | None                                     |
+	| LCH   | galacticraftplanets | 4.0.2.280                       | Galacticraft-Planets-1.12.2-4.0.2.280.jar               | None                                     |
+	| LCH   | inventorytweaks     | 1.63+release.109.220f184        | InventoryTweaks-1.63.jar                                | 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe |
+	| LCH   | journeymap          | 1.12.2-5.7.1                    | journeymap-1.12.2-5.7.1.jar                             | None                                     |
+	| LCH   | keywizard           | 1.12.2-1.7.3                    | keywizard-1.12.2-1.7.3.jar                              | None                                     |
+	| LCH   | mcwbridges          | 1.0.6                           | mcw-bridges-1.0.6b-mc1.12.2.jar                         | None                                     |
+	| LCH   | neat                | 1.4-17                          | Neat 1.4-17.jar                                         | None                                     |
+	| LCH   | spiceoflife         | 1.3.12                          | SpiceOfLife-mc1.12-1.3.12.jar                           | None                                     |
+	| LCH   | tfc                 | 1.7.23.181                      | TerraFirmaCraft-MC1.12.2-1.7.23.181.jar                 | None                                     |
+	| LCH   | solcarrot           | 1.8.4                           | solcarrot-1.12.2-1.8.4.jar                              | None                                     |
+
+	Loaded coremods (and transformers): 
+TransformLoader (DynamicSurroundings-1.12.2-3.6.1.0.jar)
+  
+Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+  invtweaks.forge.asm.ContainerTransformer
+MicdoodlePlugin (MicdoodleCore-1.12.2-4.0.2.280.jar)
+  micdoodle8.mods.miccore.MicdoodleTransformer
+AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
+  squeek.applecore.asm.TransformerModuleHandler
+CoreMod (Aroma1997Core-1.12.2-2.0.0.2.jar)
+  
+CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.14761 Compatibility Profile Context 21.30.23.04 30.0.13023.4001' Renderer: 'Radeon RX 580 Series'
+	AE2 Version: stable rv6-stable-7-extended_life-v51e for Forge 14.23.5.2847
+	Launched Version: 1.12.2
+	LWJGL: 2.9.4
+	OpenGL: Radeon RX 580 Series GL version 4.6.14761 Compatibility Profile Context 21.30.23.04 30.0.13023.4001, ATI Technologies Inc.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 12x AMD Ryzen 5 3600 6-Core Processor 

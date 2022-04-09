@@ -1,292 +1,795 @@
-[17:55:32] [main/INFO] [GradleStart]: Extra: []
-[17:55:32] [main/INFO] [GradleStart]: Found and added coremod: team.chisel.ctm.client.asm.CTMCorePlugin
-[17:55:32] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/James/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[17:55:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:55:32] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:55:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[17:55:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:55:32] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
-[17:55:32] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_291, running on Windows 10:amd64:10.0, installed at E:\Program Files\Java\jdk1.8.0_291\jre
-[17:55:32] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[17:55:32] [main/ERROR] [FML]: Full: C:\Users\James\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[17:55:32] [main/ERROR] [FML]: Trimmed: c:/users/james/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[17:55:32] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[17:55:32] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[17:55:33] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[17:55:33] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[17:55:33] [main/INFO] [FML]: Found a command line coremod : team.chisel.ctm.client.asm.CTMCorePlugin
-[17:55:33] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[17:55:33] [main/INFO] [FML]: Ignoring missing certificate for coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin), as this is probably a dev workspace
-[17:55:33] [main/INFO] [FML]: Searching C:\Dev\MC\TactumGramenAddon\run\.\mods for mods
-[17:55:33] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in AppleCore-mc1.12.2-3.4.0.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:55:33] [main/WARN] [FML]: The coremod AppleCore (squeek.applecore.AppleCore) is not signed!
-[17:55:33] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Aroma1997Core-1.12.2-2.0.0.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:55:33] [main/WARN] [FML]: The coremod aroma1997.core.coremod.CoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[17:55:33] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from DynamicSurroundings-1.12.2-3.6.1.0.jar
-[17:55:33] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in InventoryTweaks-1.63.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:55:33] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[17:55:33] [main/WARN] [FML]: The coremod micdoodle8.mods.miccore.MicdoodlePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[17:55:33] [main/WARN] [FML]: The coremod MicdoodlePlugin (micdoodle8.mods.miccore.MicdoodlePlugin) is not signed!
-[17:55:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[17:55:33] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[17:55:33] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[17:55:33] [main/INFO] [GradleStart]: Injecting location in coremod team.chisel.ctm.client.asm.CTMCorePlugin
-[17:55:33] [main/INFO] [GradleStart]: Injecting location in coremod squeek.applecore.AppleCore
-[17:55:33] [main/INFO] [GradleStart]: Injecting location in coremod aroma1997.core.coremod.CoreMod
-[17:55:33] [main/INFO] [GradleStart]: Injecting location in coremod invtweaks.forge.asm.FMLPlugin
-[17:55:33] [main/INFO] [GradleStart]: Injecting location in coremod micdoodle8.mods.miccore.MicdoodlePlugin
-[17:55:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:55:33] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[17:55:33] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Dev/MC/TactumGramenAddon/run/./mods/DynamicSurroundings-1.12.2-3.6.1.0.jar Service=LaunchWrapper Env=CLIENT
-[17:55:33] [main/INFO] [mixin]: Compatibility level set to JAVA_8
-[17:55:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:55:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[17:55:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:55:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:55:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:55:34] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:55:34] [main/INFO] [Aroma1997Core]: Finished data injection.
-[17:55:34] [main/INFO] [Aroma1997Core]: Finished data injection.
-[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:55:34] [main/INFO] [STDOUT]: [micdoodle8.mods.miccore.MicdoodlePlugin:getASMTransformerClass:99]: Successfully Registered Transformer
-[17:55:34] [main/INFO] [STDOUT]: [micdoodle8.mods.miccore.MicdoodlePlugin:injectData:292]: [Micdoodle8Core]: Patching game...
-[17:55:34] [main/INFO] [STDOUT]: [micdoodle8.mods.miccore.MicdoodlePlugin:injectData:292]: [Micdoodle8Core]: Patching game...
-[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
-[17:55:34] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@129bd55d
-[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[17:55:34] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
-[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:55:34] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:55:34] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:55:34] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[17:55:34] [main/INFO] [mixin]: Remapping refMap mixins.dsurround.refmap.json using C:\Users\James\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_stable\39\1.12.2\srgs\srg-mcp.srg
-[17:55:34] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[17:55:35] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
-[17:55:35] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
-[17:55:35] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player672
-[17:55:35] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
-[17:55:35] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
-[17:55:36] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[17:55:37] [Client thread/INFO] [FML]: -- System Details --
+[22:22:19] [main/INFO] [GradleStart]: Extra: []
+[22:22:19] [main/INFO] [GradleStart]: Found and added coremod: gregtech.core.GregTechLoadingPlugin
+[22:22:19] [main/INFO] [GradleStart]: Found and added coremod: zone.rong.bansoukou.BansoukouCoreMod
+[22:22:19] [main/INFO] [GradleStart]: Found and added coremod: team.chisel.ctm.client.asm.CTMCorePlugin
+[22:22:19] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/James/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[22:22:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:22:19] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:22:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[22:22:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:22:19] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[22:22:19] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_291, running on Windows 10:amd64:10.0, installed at E:\Program Files\Java\jdk1.8.0_291\jre
+[22:22:19] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[22:22:19] [main/ERROR] [FML]: Full: C:\Users\James\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[22:22:19] [main/ERROR] [FML]: Trimmed: c:/users/james/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[22:22:19] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[22:22:19] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[22:22:20] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[22:22:20] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[22:22:20] [main/INFO] [FML]: Found a command line coremod : zone.rong.bansoukou.BansoukouCoreMod
+[22:22:20] [main/INFO] [FML]: Ignoring missing certificate for coremod -Bansoukou- (zone.rong.bansoukou.BansoukouCoreMod), as this is probably a dev workspace
+[22:22:20] [main/INFO] [Bansoukou]: Ikimasu!
+[22:22:20] [main/ERROR] [Bansoukou]: Throwing
+java.io.FileNotFoundException: TerraFirmaCraft-MC1.12.2-1.7.23.181-deobf.jar does not exist in mods folder!
+	at zone.rong.bansoukou.BansoukouCoreMod.getPatchFile(BansoukouCoreMod.java:198) [_bansoukou-4.3.1.jar:1]
+	at zone.rong.bansoukou.BansoukouCoreMod.<init>(BansoukouCoreMod.java:61) [_bansoukou-4.3.1.jar:1]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_291]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [?:1.8.0_291]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [?:1.8.0_291]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) [?:1.8.0_291]
+	at java.lang.Class.newInstance(Class.java:442) [?:1.8.0_291]
+	at net.minecraftforge.fml.relauncher.CoreModManager.loadCoreMod(CoreModManager.java:594) [forgeSrc-1.12.2-14.23.5.2847.jar:?]
+	at net.minecraftforge.fml.relauncher.CoreModManager.handleLaunch(CoreModManager.java:263) [forgeSrc-1.12.2-14.23.5.2847.jar:?]
+	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.setupHome(FMLLaunchHandler.java:107) [forgeSrc-1.12.2-14.23.5.2847.jar:?]
+	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.setupClient(FMLLaunchHandler.java:81) [forgeSrc-1.12.2-14.23.5.2847.jar:?]
+	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.configureForClientLaunch(FMLLaunchHandler.java:42) [forgeSrc-1.12.2-14.23.5.2847.jar:?]
+	at net.minecraftforge.fml.common.launcher.FMLTweaker.injectIntoClassLoader(FMLTweaker.java:141) [forgeSrc-1.12.2-14.23.5.2847.jar:?]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:115) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_291]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_291]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_291]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_291]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: java.io.FileNotFoundException: TerraFirmaCraft-MC1.12.2-1.7.23.181-deobf.jar does not exist in mods folder!
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: 	at zone.rong.bansoukou.BansoukouCoreMod.getPatchFile(BansoukouCoreMod.java:198)
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: 	at zone.rong.bansoukou.BansoukouCoreMod.<init>(BansoukouCoreMod.java:61)
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: 	at java.lang.Class.newInstance(Class.java:442)
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: 	at net.minecraftforge.fml.relauncher.CoreModManager.loadCoreMod(CoreModManager.java:594)
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: 	at net.minecraftforge.fml.relauncher.CoreModManager.handleLaunch(CoreModManager.java:263)
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: 	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.setupHome(FMLLaunchHandler.java:107)
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: 	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.setupClient(FMLLaunchHandler.java:81)
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: 	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.configureForClientLaunch(FMLLaunchHandler.java:42)
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: 	at net.minecraftforge.fml.common.launcher.FMLTweaker.injectIntoClassLoader(FMLTweaker.java:141)
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:115)
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+[22:22:20] [main/INFO] [STDERR]: [zone.rong.bansoukou.BansoukouCoreMod:<init>:66]: 	at GradleStart.main(GradleStart.java:25)
+[22:22:20] [main/INFO] [FML]: Found a command line coremod : gregtech.core.GregTechLoadingPlugin
+[22:22:20] [main/INFO] [FML]: Ignoring missing certificate for coremod GregTechLoadingPlugin (gregtech.core.GregTechLoadingPlugin), as this is probably a dev workspace
+[22:22:20] [main/INFO] [FML]: Found a command line coremod : team.chisel.ctm.client.asm.CTMCorePlugin
+[22:22:20] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:22:20] [main/INFO] [FML]: Ignoring missing certificate for coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin), as this is probably a dev workspace
+[22:22:20] [main/INFO] [FML]: Searching C:\Dev\MC\TactumGramenAddon\run\.\mods for mods
+[22:22:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[22:22:20] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[22:22:20] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[22:22:20] [main/INFO] [GradleStart]: Injecting location in coremod zone.rong.bansoukou.BansoukouCoreMod
+[22:22:20] [main/INFO] [GradleStart]: Injecting location in coremod gregtech.core.GregTechLoadingPlugin
+[22:22:20] [main/INFO] [GradleStart]: Injecting location in coremod team.chisel.ctm.client.asm.CTMCorePlugin
+[22:22:20] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:22:20] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:22:20] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[22:22:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:22:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:22:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:22:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:22:20] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[22:22:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:22:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:22:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:22:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[22:22:20] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
+[22:22:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:22:20] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:22:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:22:20] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[22:22:21] [main/INFO] [GregTechTransformer]: Patched method playEvent(Lnet/minecraft/entity/player/EntityPlayer;ILnet/minecraft/util/math/BlockPos;I)V in net/minecraft/world/World successfully
+[22:22:21] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[22:22:21] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[22:22:21] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player783
+[22:22:21] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[22:22:21] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[22:22:22] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[22:22:22] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[22:22:23] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_291, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 973791936 bytes (928 MB) / 1119354880 bytes (1067 MB) up to 7618953216 bytes (7266 MB)
+	Memory: 618264944 bytes (589 MB) / 777519104 bytes (741 MB) up to 7618953216 bytes (7266 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
-TransformLoader (DynamicSurroundings-1.12.2-3.6.1.0.jar)
+-Bansoukou- (_bansoukou-4.3.1.jar)
   
-Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
-  invtweaks.forge.asm.ContainerTransformer
-MicdoodlePlugin (MicdoodleCore-1.12.2-4.0.2.280.jar)
-  micdoodle8.mods.miccore.MicdoodleTransformer
-AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
-  squeek.applecore.asm.TransformerModuleHandler
-CoreMod (Aroma1997Core-1.12.2-2.0.0.2.jar)
-  
+GregTechLoadingPlugin (gregtech-1.12.2-2.2.0-beta.jar)
+  gregtech.core.GregTechTransformer
 CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
   team.chisel.ctm.client.asm.CTMTransformer
 	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.14761 Compatibility Profile Context 21.30.23.04 30.0.13023.4001' Renderer: 'Radeon RX 580 Series'
-[17:55:37] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
-[17:55:37] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[17:55:37] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[17:55:37] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
-[17:55:38] [Client thread/INFO] [FML]: Searching C:\Dev\MC\TactumGramenAddon\run\.\mods for mods
-[17:55:38] [Client thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
-[17:55:39] [Client thread/WARN] [FML]: Mod aroma1997core is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.0.0.2
-[17:55:39] [Client thread/WARN] [FML]: Mod aromabackup is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.1.1.4
-[17:55:39] [Client thread/WARN] [FML]: Mod aromabackuprecovery is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.1.1.4
-[17:55:39] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 74261000 nanos
-[17:55:39] [Client thread/WARN] [FML]: Mod tfc is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.7.23.181
-[17:55:39] [Client thread/INFO] [FML]: Forge Mod Loader has identified 39 mods to load
-[17:55:40] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, micdoodlecore, codechickenlib, jei, theoneprobe, ctgui, crafttweaker, ctm, tangeherbamaddon, akashictome, applecore, appleskin, appliedenergistics2, aroma1997core, aromabackup, aromabackuprecovery, autoreglib, base, buildinggadgets, chisel, contenttweaker, controlling, dsurround, elevatorid, forestry, galacticraftplanets, galacticraftcore, inventorytweaks, journeymap, keywizard, mcwbridges, neat, spiceoflife, tfc, orelib, solcarrot] at CLIENT
-[17:55:40] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, micdoodlecore, codechickenlib, jei, theoneprobe, ctgui, crafttweaker, ctm, tangeherbamaddon, akashictome, applecore, appleskin, appliedenergistics2, aroma1997core, aromabackup, aromabackuprecovery, autoreglib, base, buildinggadgets, chisel, contenttweaker, controlling, dsurround, elevatorid, forestry, galacticraftplanets, galacticraftcore, inventorytweaks, journeymap, keywizard, mcwbridges, neat, spiceoflife, tfc, orelib, solcarrot] at SERVER
-[17:55:40] [Client thread/ERROR] [FML]: The mod codechickenlib is expecting signature f1850c39b2516232a2108a7bd84d1cb5df93b261 for source CodeChickenLib-1.12.2-3.2.3.358.jar, however there is no signature matching that description
-[17:55:40] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
-[17:55:40] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
-[17:55:40] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
-[17:55:40] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
-[17:55:41] [Client thread/ERROR] [FML]: The mod appliedenergistics2 is expecting signature dfa4d3ac143316c6f32aa1a1beda1e34d42132e5 for source appliedenergistics2-rv6-stable-7-extended_life-v51e.jar, however there is no signature matching that description
-[17:55:43] [Client thread/WARN] [solcarrot]: Invalid Fingerprint!
-[17:55:43] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:The One Probe, FMLFileResourcePack:CT-GUI, FMLFileResourcePack:CraftTweaker2, FMLFileResourcePack:CTM, FMLFileResourcePack:TangeHerbamAddon, FMLFileResourcePack:Akashic Tome, FMLFileResourcePack:AppleCore, FMLFileResourcePack:AppleSkin, FMLFileResourcePack:AE2 Unofficial Extended Life, FMLFileResourcePack:Aroma1997Core, FMLFileResourcePack:AromaBackup, FMLFileResourcePack:AromaBackuprecovery, FMLFileResourcePack:AutoRegLib, FMLFileResourcePack:B.A.S.E, FMLFileResourcePack:Building Gadgets, FMLFileResourcePack:Chisel, FMLFileResourcePack:ContentTweaker, FMLFileResourcePack:Controlling, FMLFileResourcePack:Dynamic Surroundings, FMLFileResourcePack:Elevator Mod, FMLFileResourcePack:Forestry, FMLFileResourcePack:Galacticraft Planets, FMLFileResourcePack:Galacticraft Core, FMLFileResourcePack:Inventory Tweaks, FMLFileResourcePack:JourneyMap, FMLFileResourcePack:Keyboard Wizard, FMLFileResourcePack:Macaw's Bridges, FMLFileResourcePack:Neat, FMLFileResourcePack:The Spice of Life, FMLFileResourcePack:TerraFirmaCraft, FMLFileResourcePack:OreLib Support Mod, FMLFileResourcePack:Spice of Life: Carrot Edition, resources
-[17:55:43] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[17:55:43] [Client thread/INFO] [FML]: Found 1479 ObjectHolder annotations
-[17:55:43] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[17:55:43] [Client thread/INFO] [FML]: Found 2 ItemStackHolder annotations
-[17:55:43] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[17:55:43] [Forge Version Check/INFO] [forge.VersionCheck]: [dsurround] Starting version check at https://raw.githubusercontent.com/OreCruncher/DynamicSurroundings/master/version.json
-[17:55:44] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
-[17:55:44] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
-[17:55:44] [Forge Version Check/INFO] [forge.VersionCheck]: [buildinggadgets] Starting version check at https://github.com/Direwolf20-MC/BuildingGadgets/raw/master/update.json
-[17:55:45] [Client thread/INFO] [forestry]: Module HarvestCraft Module failed to load: HarvestCraft not found
-[17:55:45] [Client thread/INFO] [forestry]: Module Natura Module failed to load: Natura not found
-[17:55:45] [Client thread/INFO] [forestry]: Module TechReborn Module failed to load: TechReborn not found
-[17:55:45] [Client thread/INFO] [forestry]: Module BuildCraft 6 Statements Module failed to load: Compatible BuildCraftAPI|statements version not found
-[17:55:45] [Client thread/INFO] [forestry]: Module Mystical Agriculture Module failed to load: Mystical Agriculture not found
-[17:55:45] [Client thread/INFO] [forestry]: Module IndustrialCraft2 Module failed to load: IndustrialCraft2 not found
-[17:55:45] [Client thread/INFO] [forestry]: Module ImmersiveEngineering Module failed to load: ImmersiveEngineering not found
-[17:55:45] [Client thread/INFO] [forestry]: Module EnderIO Module failed to load: EnderIO not found
-[17:55:45] [Client thread/INFO] [forestry]: Module rustic Module failed to load: Rustic not found
-[17:55:45] [Client thread/INFO] [forestry]: Module Actually Additions Module failed to load: Actually Additions not found
-[17:55:45] [Client thread/INFO] [forestry]: Module BuildCraft 6 Transport Module failed to load: buildcrafttransport not found
-[17:55:45] [Client thread/INFO] [forestry]: Module Extra Utilities Module failed to load: Extra Utilities not found
-[17:55:45] [Client thread/INFO] [forestry]: Module BuildCraft 6 Fuels Module failed to load: Compatible BuildCraftAPI|fuels version not found
-[17:55:45] [Client thread/INFO] [forestry]: Module BiomesOPlenty Module failed to load: BiomesOPlenty not found
-[17:55:45] [Client thread/INFO] [forestry]: Module Better With Mods Module failed to load: Better With Mods not found
-[17:55:45] [Client thread/INFO] [forestry]: Module BuildCraft 6 Recipes Module failed to load: Compatible BuildCraftAPI|recipes version not found
-[17:55:45] [Client thread/INFO] [forestry]: Module Roots Module failed to load: Roots not found
-[17:55:45] [Forge Version Check/INFO] [forge.VersionCheck]: [buildinggadgets] Found status: AHEAD Target: null
-[17:55:45] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[17:55:46] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2859
-[17:55:46] [Forge Version Check/INFO] [forge.VersionCheck]: [orelib] Starting version check at https://raw.githubusercontent.com/OreCruncher/OreLib/master/version.json
-[17:55:46] [Forge Version Check/INFO] [forge.VersionCheck]: [orelib] Found status: UP_TO_DATE Target: null
-[17:55:47] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:629]: ---- Minecraft Crash Report ----
-
-WARNING: coremods are present:
-  TransformLoader (DynamicSurroundings-1.12.2-3.6.1.0.jar)
-  Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
-  MicdoodlePlugin (MicdoodleCore-1.12.2-4.0.2.280.jar)
-  AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
-  CoreMod (Aroma1997Core-1.12.2-2.0.0.2.jar)
-  CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
-Contact their authors BEFORE contacting forge
-
-// Hi. I'm Minecraft, and I'm a crashaholic.
-
-Time: 4/4/22 5:55 PM
-Description: There was a severe problem during mod loading that has caused the game to fail
-
-net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from TangeHerbamAddon (tangeherbamaddon)
-Caused by: java.lang.NullPointerException
-	at tangeherbam.THMod.preInit(THMod.java:28)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:639)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
-	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
-	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
-	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
-	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
-	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
-	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
-	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
-	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
-	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
-	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
-	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
-	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
-	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
-	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
-	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
-	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:629)
-	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
-	at net.minecraft.client.Minecraft.init(Minecraft.java:514)
-	at net.minecraft.client.Minecraft.run(Minecraft.java:422)
-	at net.minecraft.client.main.Main.main(Main.java:118)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
-	at GradleStart.main(GradleStart.java:25)
-
-
-A detailed walkthrough of the error, its code path and all known details is as follows:
----------------------------------------------------------------------------------------
-
--- System Details --
-Details:
-	Minecraft Version: 1.12.2
-	Operating System: Windows 10 (amd64) version 10.0
-	Java Version: 1.8.0_291, Oracle Corporation
-	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 1731759888 bytes (1651 MB) / 2089811968 bytes (1993 MB) up to 7618953216 bytes (7266 MB)
-	JVM Flags: 0 total; 
-	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
-	FML: MCP 9.42 Powered by Forge 14.23.5.2847 39 mods loaded, 39 mods active
-	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
-
-	| State | ID                  | Version                         | Source                                                  | Signature                                |
-	|:----- |:------------------- |:------------------------------- |:------------------------------------------------------- |:---------------------------------------- |
-	| LCH   | minecraft           | 1.12.2                          | minecraft.jar                                           | None                                     |
-	| LCH   | mcp                 | 9.42                            | minecraft.jar                                           | None                                     |
-	| LCH   | FML                 | 8.0.99.99                       | forgeSrc-1.12.2-14.23.5.2847.jar                        | None                                     |
-	| LCH   | forge               | 14.23.5.2847                    | forgeSrc-1.12.2-14.23.5.2847.jar                        | None                                     |
-	| LCH   | micdoodlecore       |                                 | minecraft.jar                                           | None                                     |
-	| LCH   | codechickenlib      | 3.2.3.358                       | CodeChickenLib-1.12.2-3.2.3.358.jar                     | None                                     |
-	| LCH   | jei                 | 4.15.0.291                      | jei_1.12.2-4.15.0.291.jar                               | None                                     |
-	| LCH   | theoneprobe         | 1.4.23                          | TheOneProbe-1.12-1.12-1.4.23-16.jar                     | None                                     |
-	| LCH   | crafttweaker        | 4.1.20                          | CraftTweaker2-MC1120-Main-1.12-4.1.20.554.jar           | None                                     |
-	| LCH   | ctgui               | 1.0.0                           | CraftTweaker2-MC1120-Main-1.12-4.1.20.554.jar           | None                                     |
-	| LCH   | forestry            | 5.8.2.387                       | forestry_1.12.2-5.8.2.387.jar                           | None                                     |
-	| LCE   | tangeherbamaddon    | 1.0                             | TactusGramenAddon-1.12.2-1.0.jar                        | None                                     |
-	| LC    | ctm                 | MC1.12.2-1.0.2.31               | CTM-MC1.12.2-1.0.2.31.jar                               | None                                     |
-	| LC    | akashictome         | 1.2-12                          | AkashicTome-1.2-12.jar                                  | None                                     |
-	| LC    | applecore           | 3.4.0                           | AppleCore-mc1.12.2-3.4.0.jar                            | None                                     |
-	| LC    | appleskin           | 1.0.14                          | AppleSkin-mc1.12-1.0.14.jar                             | None                                     |
-	| LC    | appliedenergistics2 | rv6-stable-7-extended_life-v51e | appliedenergistics2-rv6-stable-7-extended_life-v51e.jar | None                                     |
-	| LC    | aroma1997core       | 2.0.0.2                         | Aroma1997Core-1.12.2-2.0.0.2.jar                        | dfbfe4c473253d8c5652417689848f650b2cbe32 |
-	| LC    | aromabackup         | 2.1.1.4                         | AromaBackup-1.12.2-2.1.1.4.jar                          | dfbfe4c473253d8c5652417689848f650b2cbe32 |
-	| LC    | aromabackuprecovery | 2.1.1.4                         | AromaBackup-1.12.2-2.1.1.4.jar                          | dfbfe4c473253d8c5652417689848f650b2cbe32 |
-	| LC    | autoreglib          | 1.3-32                          | AutoRegLib-1.3-32.jar                                   | None                                     |
-	| LC    | base                | 3.14.0                          | base-1.12.2-3.14.0.jar                                  | None                                     |
-	| LC    | buildinggadgets     | 2.8.4                           | BuildingGadgets-2.8.4.jar                               | None                                     |
-	| LC    | chisel              | MC1.12.2-1.0.2.45               | Chisel-MC1.12.2-1.0.2.45.jar                            | None                                     |
-	| LC    | contenttweaker      | 1.12.2-4.10.0                   | ContentTweaker-1.12.2-4.10.0.jar                        | None                                     |
-	| LC    | controlling         | 3.0.10                          | Controlling-3.0.10.jar                                  | None                                     |
-	| LC    | galacticraftcore    | 4.0.2.280                       | GalacticraftCore-1.12.2-4.0.2.280.jar                   | None                                     |
-	| LC    | orelib              | 3.6.0.1                         | OreLib-1.12.2-3.6.0.1.jar                               | 7a2128d395ad96ceb9d9030fbd41d035b435753a |
-	| LC    | dsurround           | 3.6.1.0                         | DynamicSurroundings-1.12.2-3.6.1.0.jar                  | 7a2128d395ad96ceb9d9030fbd41d035b435753a |
-	| LC    | elevatorid          | 1.3.14                          | ElevatorMod-1.12.2-1.3.14.jar                           | None                                     |
-	| LC    | galacticraftplanets | 4.0.2.280                       | Galacticraft-Planets-1.12.2-4.0.2.280.jar               | None                                     |
-	| LC    | inventorytweaks     | 1.63+release.109.220f184        | InventoryTweaks-1.63.jar                                | 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe |
-	| LC    | journeymap          | 1.12.2-5.7.1                    | journeymap-1.12.2-5.7.1.jar                             | None                                     |
-	| LC    | keywizard           | 1.12.2-1.7.3                    | keywizard-1.12.2-1.7.3.jar                              | None                                     |
-	| LC    | mcwbridges          | 1.0.6                           | mcw-bridges-1.0.6b-mc1.12.2.jar                         | None                                     |
-	| LC    | neat                | 1.4-17                          | Neat 1.4-17.jar                                         | None                                     |
-	| LC    | spiceoflife         | 1.3.12                          | SpiceOfLife-mc1.12-1.3.12.jar                           | None                                     |
-	| LC    | tfc                 | 1.7.23.181                      | TerraFirmaCraft-MC1.12.2-1.7.23.181.jar                 | None                                     |
-	| LC    | solcarrot           | 1.8.4                           | solcarrot-1.12.2-1.8.4.jar                              | None                                     |
-
-	Loaded coremods (and transformers): 
-TransformLoader (DynamicSurroundings-1.12.2-3.6.1.0.jar)
-  
-Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
-  invtweaks.forge.asm.ContainerTransformer
-MicdoodlePlugin (MicdoodleCore-1.12.2-4.0.2.280.jar)
-  micdoodle8.mods.miccore.MicdoodleTransformer
-AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
-  squeek.applecore.asm.TransformerModuleHandler
-CoreMod (Aroma1997Core-1.12.2-2.0.0.2.jar)
-  
-CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
-  team.chisel.ctm.client.asm.CTMTransformer
-	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.14761 Compatibility Profile Context 21.30.23.04 30.0.13023.4001' Renderer: 'Radeon RX 580 Series'
-	AE2 Version: stable rv6-stable-7-extended_life-v51e for Forge 14.23.5.2847
-[17:55:47] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:629]: #@!@# Game crashed! Crash report saved to: #@!@# C:\Dev\MC\TactumGramenAddon\run\.\crash-reports\crash-2022-04-04_17.55.47-client.txt
+[22:22:23] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
+[22:22:23] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[22:22:23] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[22:22:23] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[22:22:23] [Client thread/INFO] [FML]: Searching C:\Dev\MC\TactumGramenAddon\run\.\mods for mods
+[22:22:24] [Client thread/WARN] [FML]: Mod gregtech is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.2.0-beta
+[22:22:24] [Client thread/WARN] [FML]: Mod tfc is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.7.23.181
+[22:22:24] [Client thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
+[22:22:25] [Client thread/INFO] [FML]: Forge Mod Loader has identified 21 mods to load
+[22:22:25] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, bansoukou, FML, forge, gregtechfoodoption, gregtech, tfc, codechickenlib, jei, theoneprobe, ctgui, crafttweaker, ctm, tangeherbamaddon, appliedenergistics2, base, contenttweaker, forestry, journeymap, keywizard] at CLIENT
+[22:22:25] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, bansoukou, FML, forge, gregtechfoodoption, gregtech, tfc, codechickenlib, jei, theoneprobe, ctgui, crafttweaker, ctm, tangeherbamaddon, appliedenergistics2, base, contenttweaker, forestry, journeymap, keywizard] at SERVER
+[22:22:25] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 99733800 nanos
+[22:22:25] [Client thread/ERROR] [FML]: The mod codechickenlib is expecting signature f1850c39b2516232a2108a7bd84d1cb5df93b261 for source CodeChickenLib-1.12.2-3.2.3.358.jar, however there is no signature matching that description
+[22:22:26] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
+[22:22:26] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
+[22:22:26] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
+[22:22:26] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
+[22:22:27] [Client thread/WARN] [GregTechFoodOption]: It appears you have NuclearCraft installed rather than NuclearCraft:Overhauled. This mod does not have compatibility with the first, so consider switching to the other if you want that. Otherwise, turn off the NC Compat config option.
+[22:22:27] [Client thread/WARN] [GregTechFoodOption]: It appears you don't have ActuallyAdditions installed, but you still have the config option for compatibility with it on. Consider turning it off, or installing ActuallyAdditions.
+[22:22:27] [Client thread/WARN] [GregTechFoodOption]: It appears you don't have AppleCore installed, but you still have the config option for compatibility with it on. Consider turning it off, or installing AppleCore.
+[22:22:28] [Client thread/ERROR] [FML]: The mod appliedenergistics2 is expecting signature dfa4d3ac143316c6f32aa1a1beda1e34d42132e5 for source appliedenergistics2-rv6-stable-7-extended_life-v51e.jar, however there is no signature matching that description
+[22:22:28] [Client thread/INFO] [GregTechTransformer]: Patched method renderWorldPass(IFJ)V in net/minecraft/client/renderer/EntityRenderer successfully
+[22:22:29] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GregTech Food Option, FMLFileResourcePack:GregTech, FMLFileResourcePack:TerraFirmaCraft, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:The One Probe, FMLFileResourcePack:CT-GUI, FMLFileResourcePack:CraftTweaker2, FMLFileResourcePack:CTM, FMLFileResourcePack:TangeHerbamAddon, FMLFileResourcePack:AE2 Unofficial Extended Life, FMLFileResourcePack:B.A.S.E, FMLFileResourcePack:ContentTweaker, FMLFileResourcePack:Forestry, FMLFileResourcePack:JourneyMap, FMLFileResourcePack:Keyboard Wizard, resources
+[22:22:29] [Client thread/WARN] [net.minecraft.client.resources.AbstractResourcePack]: ResourcePack: ignored non-lowercase namespace: META-INF in C:\Dev\MC\TactumGramenAddon\libs\GregTech Food Option-1.12.2-1.4.3.jar
+[22:22:29] [Client thread/WARN] [net.minecraft.client.resources.AbstractResourcePack]: ResourcePack: ignored non-lowercase namespace: META-INF in C:\Dev\MC\TactumGramenAddon\libs\GregTech Food Option-1.12.2-1.4.3.jar
+[22:22:29] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[22:22:29] [Client thread/INFO] [FML]: Found 1392 ObjectHolder annotations
+[22:22:29] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[22:22:29] [Client thread/INFO] [FML]: Found 2 ItemStackHolder annotations
+[22:22:29] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[22:22:29] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[22:22:30] [Client thread/INFO] [forestry]: Module Mystical Agriculture Module failed to load: Mystical Agriculture not found
+[22:22:30] [Client thread/INFO] [forestry]: Module IndustrialCraft2 Module failed to load: IndustrialCraft2 not found
+[22:22:30] [Client thread/INFO] [forestry]: Module TechReborn Module failed to load: TechReborn not found
+[22:22:30] [Client thread/INFO] [forestry]: Module Extra Utilities Module failed to load: Extra Utilities not found
+[22:22:30] [Client thread/INFO] [forestry]: Module EnderIO Module failed to load: EnderIO not found
+[22:22:30] [Client thread/INFO] [forestry]: Module Roots Module failed to load: Roots not found
+[22:22:30] [Client thread/INFO] [forestry]: Module rustic Module failed to load: Rustic not found
+[22:22:30] [Client thread/INFO] [forestry]: Module Better With Mods Module failed to load: Better With Mods not found
+[22:22:30] [Client thread/INFO] [forestry]: Module BuildCraft 6 Fuels Module failed to load: Compatible BuildCraftAPI|fuels version not found
+[22:22:30] [Client thread/INFO] [forestry]: Module BuildCraft 6 Recipes Module failed to load: Compatible BuildCraftAPI|recipes version not found
+[22:22:30] [Client thread/INFO] [forestry]: Module Natura Module failed to load: Natura not found
+[22:22:30] [Client thread/INFO] [forestry]: Module ImmersiveEngineering Module failed to load: ImmersiveEngineering not found
+[22:22:30] [Client thread/INFO] [forestry]: Module HarvestCraft Module failed to load: HarvestCraft not found
+[22:22:30] [Client thread/INFO] [forestry]: Module BuildCraft 6 Transport Module failed to load: buildcrafttransport not found
+[22:22:30] [Client thread/INFO] [forestry]: Module BuildCraft 6 Statements Module failed to load: Compatible BuildCraftAPI|statements version not found
+[22:22:30] [Client thread/INFO] [forestry]: Module BiomesOPlenty Module failed to load: BiomesOPlenty not found
+[22:22:30] [Client thread/INFO] [forestry]: Module Actually Additions Module failed to load: Actually Additions not found
+[22:22:31] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2859
+[22:22:31] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
+[22:22:32] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
+[22:22:32] [Client thread/INFO] [GregTech]: Registering GTCEu UI Factories
+[22:22:32] [Client thread/INFO] [GregTech]: Registering addon UI Factories
+[22:22:32] [Client thread/INFO] [GregTech]: Registering GTCEu Materials
+[22:22:32] [Client thread/INFO] [GregTech]: Registering addon Materials
+[22:22:32] [Client thread/INFO] [GregTech]: Running early CraftTweaker initialization scripts...
+[22:22:33] [Client thread/INFO] [GregTech]: Registering GTCEu Meta Tile Entities
+[22:22:33] [Client thread/INFO] [GregTech]: Registering MetaTileEntities
+[22:22:33] [Client thread/INFO] [GregTech]: Registering KeyBinds
+[22:22:33] [Client thread/INFO] [tfc]: Loading or creating TFC config directory
+[22:22:34] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.model.ModelLoader$VanillaModelWrapper], Method [getTextures]
+[22:22:34] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.model.ModelLoader$VanillaModelWrapper Finished.
+[22:22:34] [Client thread/INFO] [GregTechTransformer]: Patched method getQuads(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/EnumFacing;J)Ljava/util/List; in team/chisel/ctm/client/model/AbstractCTMBakedModel successfully
+[22:22:34] [Client thread/INFO] [AE2:C]: Pre Initialization ( started )
+[22:22:35] [Client thread/INFO] [AE2:C]: Starting AE2 VersionChecker
+[22:22:35] [Client thread/INFO] [AE2:C]: Pre Initialization ( ended after 1333ms )
+[22:22:35] [AE2 VersionChecker/INFO] [AE2:C]: Last check was just recently.
+[22:22:35] [AE2 VersionChecker/INFO] [AE2:C]: Stopping AE2 VersionChecker
+[22:22:35] [Client thread/INFO] [base]: Module JourneyMap has successfully loaded
+[22:22:35] [Client thread/INFO] [base]: Module Tool has successfully loaded
+[22:22:35] [Client thread/INFO] [FML]: OBJLoader: Domain contenttweaker has been added.
+[22:22:35] [Client thread/INFO] [contenttweaker]: Module Vanilla CraftTweaker has successfully loaded
+[22:22:35] [Client thread/FATAL] [contenttweaker]: Module Chickens did not load due to issue: Mod with modid: chickens was not found
+[22:22:35] [Client thread/INFO] [contenttweaker]: Module Materials has successfully loaded
+[22:22:35] [Client thread/FATAL] [contenttweaker]: Module Tinkers did not load due to issue: Mod with modid: tconstruct was not found
+[22:22:35] [Client thread/INFO] [journeymap]: Found @journeymap.client.api.ClientPlugin: com.teamacronymcoders.base.modules.journeymap.JourneyMapPlugin
+[22:22:35] [Client thread/INFO] [keywizard]: Let's do some keyboard magic!
+[22:22:35] [Client thread/INFO] [GregTech]: Registering Blocks...
+[22:22:35] [Client thread/INFO] [GregTechFoodOption]: Registering blocks...
+[22:22:35] [Client thread/WARN] [FML]: A mod has attempted to assign Block Block{minecraft:air} to the Fluid 'milk' but this Fluid has already been linked to the Block Block{forestry:fluid.milk}. You may have duplicate Fluid Blocks as a result. It *may* be possible to configure your mods to avoid this.
+[22:22:35] [Client thread/WARN] [FML]: A mod has attempted to assign Block Block{minecraft:air} to the Fluid 'tin' but this Fluid has already been linked to the Block Block{minecraft:air}. You may have duplicate Fluid Blocks as a result. It *may* be possible to configure your mods to avoid this.
+[22:22:37] [Client thread/INFO] [tfc]: The below warnings about unintended overrides are normal. The override is intended. ;)
+[22:22:37] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ice`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:37] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `snow_layer`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:37] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `torch`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:37] [Client thread/INFO] [FML]: Applying holder lookups
+[22:22:37] [Client thread/INFO] [FML]: Holder lookups applied
+[22:22:37] [Client thread/INFO] [GregTech]: Registering Items...
+[22:22:37] [Client thread/INFO] [GregTechFoodOption]: Registering Items...
+[22:22:37] [Client thread/INFO] [tfc]: The below warnings about unintended overrides are normal. The override is intended. ;)
+[22:22:37] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `snow_layer`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:37] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `glass_bottle`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:37] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `torch`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:37] [Client thread/INFO] [FML]: Applying holder lookups
+[22:22:37] [Client thread/INFO] [FML]: Holder lookups applied
+[22:22:37] [Client thread/INFO] [FML]: Applying holder lookups
+[22:22:37] [Client thread/INFO] [FML]: Holder lookups applied
+[22:22:38] [Client thread/INFO] [FML]: Applying holder lookups
+[22:22:38] [Client thread/INFO] [FML]: Holder lookups applied
+[22:22:38] [Client thread/INFO] [FML]: Injecting itemstacks
+[22:22:38] [Client thread/INFO] [FML]: Itemstack injection complete
+[22:22:39] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[22:22:40] [Thread-6/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[22:22:40] [Thread-6/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:22:40] [Thread-6/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[22:22:40] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[22:22:49] [Client thread/INFO] [GregTechTransformer]: Patched method canRenderInLayer(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/BlockRenderLayer;)Ljava/lang/Boolean; in team/chisel/ctm/client/asm/CTMCoreMethods successfully
+[22:22:49] [Client thread/INFO] [GregTech]: Loading meta tile entity texture sprites...
+[22:22:49] [Client thread/INFO] [FML]: Max texture size: 16384
+[22:22:50] [Client thread/WARN] [net.minecraft.client.renderer.texture.TextureMap]: Texture gregtech:textures/items/metaitems/clipboard/page.png with size 70x70 will have visual artifacts at mip level 4, it can only support level 1. Please report to the mod author that the texture should be some multiple of 16x16.
+[22:22:50] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 2048x2048 textures-atlas
+[22:22:54] [Client thread/INFO] [GregTech]: Injected MetaTileEntity render model
+[22:22:54] [Client thread/INFO] [GregTech]: Registering special item models
+[22:22:55] [Client thread/INFO] [GregTechTransformer]: Patched method doRenderLayer(Lnet/minecraft/entity/EntityLivingBase;FFFFFFF)V in net/minecraft/client/renderer/entity/layers/LayerCustomHead successfully
+[22:22:55] [Client thread/INFO] [GregTechTransformer]: Patched method renderArmorLayer(Lnet/minecraft/entity/EntityLivingBase;FFFFFFFLnet/minecraft/inventory/EntityEquipmentSlot;)V in net/minecraft/client/renderer/entity/layers/LayerArmorBase successfully
+[22:22:58] [Client thread/INFO] [GregTech]: Registering ore dictionary...
+[22:22:58] [Client thread/INFO] [GregTech]: Registering OreDict entries.
+[22:22:58] [Client thread/INFO] [GregTech]: Registering recipes...
+[22:22:58] [Client thread/INFO] [GregTech]: Modifying vanilla recipes according to config. DON'T BE SCARED OF FML's WARNING ABOUT DANGEROUS ALTERNATIVE PREFIX.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `paper`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sugar`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `glass_bottle`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `iron_door`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cauldron`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `hopper`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `iron_bars`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `anvil`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `iron_trapdoor`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `minecart`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bucket`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `flint_and_steel`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tnt`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `white_stained_glass_pane`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `orange_stained_glass_pane`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `magenta_stained_glass_pane`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `light_blue_stained_glass_pane`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `yellow_stained_glass_pane`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lime_stained_glass_pane`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pink_stained_glass_pane`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `gray_stained_glass_pane`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `light_gray_stained_glass_pane`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyan_stained_glass_pane`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `purple_stained_glass_pane`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `blue_stained_glass_pane`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `brown_stained_glass_pane`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `green_stained_glass_pane`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `red_stained_glass_pane`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `black_stained_glass_pane`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `glass_pane`, expected `gregtech`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/INFO] [GregTechFoodOption]: Registering recipe normal...
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sugar`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `speckled_melon`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sea_lantern`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rabbit_stew_from_red_mushroom`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rabbit_stew_from_brown_mushroom`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pumpkin_pie`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `prismarine_bricks`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `prismarine`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `paper`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mushroom_stew`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `melon_seeds`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `melon_block`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pumpkin_seeds`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `golden_apple`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `glowstone`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `furnace`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `flint_and_steel`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fishing_rod`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fire_charge`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fermented_spider_eye`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `crafting_table`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cookie`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `compass`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `comparator`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `repeater`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `coarse_dirt`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `chest`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cauldron`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `carrot_on_a_stick`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cake`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bucket`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `brewing_stand`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bread`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bookshelf`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `boat`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot_soup`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beacon`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `armor_stand`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `anvil`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `painting`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `torch`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `shield`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `shears`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lead`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `glass_bottle`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `flower_pot`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `brick_block`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `enchanting_table`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `wheat`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `slime_ball`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `slime`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lapis_lazuli`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lapis_block`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `iron_ingot_from_nuggets`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `iron_ingot_from_block`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `iron_nugget`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `iron_block`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `iron_bars`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `hay_block`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `gold_nugget`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `gold_ingot_from_nuggets`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `gold_ingot_from_block`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `gold_block`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `diamond`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dark_prismarine`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `emerald_block`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `emerald`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `coal_block`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `coal`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bone_meal_from_bone`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bone_meal_from_block`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `red_nether_brick`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `quartz_stairs`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `quartz_slab`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `quartz_block`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pillar_quartz_block`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `nether_wart_block`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `nether_brick_stairs`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `nether_brick_slab`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `nether_brick_fence`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `nether_brick`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `magma_cream`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `magma`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `chiseled_quartz_block`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `purpur_stairs`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `purpur_slab`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `purpur_pillar`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `purpur_block`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ender_eye`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `end_rod`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `end_crystal`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `end_bricks`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fireworks`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `leather_helmet`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `leather_chestplate`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `leather_leggings`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `leather_boots`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `leather`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `wooden_hoe`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `wooden_axe`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `wooden_sword`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `wooden_shovel`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `wooden_pickaxe`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `wooden_button`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `wooden_pressure_plate`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `wooden_door`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `trapdoor`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `birch_wooden_slab`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `birch_stairs`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `birch_planks`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `birch_fence_gate`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `birch_fence`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `birch_door`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `birch_boat`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `acacia_wooden_slab`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `acacia_stairs`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `acacia_planks`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `acacia_fence_gate`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `acacia_fence`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `acacia_door`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `acacia_boat`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dark_oak_boat`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dark_oak_door`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dark_oak_fence`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dark_oak_fence_gate`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dark_oak_planks`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dark_oak_stairs`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dark_oak_wooden_slab`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `jungle_boat`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `jungle_door`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `jungle_fence`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `jungle_fence_gate`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `jungle_planks`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `jungle_stairs`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `jungle_wooden_slab`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `oak_planks`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `oak_stairs`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `oak_wooden_slab`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fence_gate`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `fence`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `spruce_wooden_slab`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `spruce_stairs`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `spruce_planks`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `spruce_fence_gate`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `spruce_fence`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `spruce_door`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `spruce_boat`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `trapped_chest`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `redstone_lamp`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `piston`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `observer`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `daylight_detector`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rail`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `minecart`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `furnace_minecart`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `detector_rail`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `chest_minecart`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `activator_rail`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `golden_rail`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stone_hoe`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stone_axe`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stone_sword`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stone_shovel`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stone_pickaxe`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stonebrick`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stone_stairs`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stone_slab`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stone_brick_stairs`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stone_brick_slab`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `polished_granite`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `polished_diorite`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `polished_andesite`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mossy_stonebrick`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mossy_cobblestone_wall`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mossy_cobblestone`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `granite`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `diorite`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cobblestone_wall`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cobblestone_slab`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `chiseled_stonebrick`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `andesite`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `smooth_sandstone`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `smooth_red_sandstone`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sandstone_stairs`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sandstone_slab`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sandstone`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `red_sandstone_stairs`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `red_sandstone_slab`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `red_sandstone`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `chiseled_sandstone`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `chiseled_red_sandstone`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `iron_trapdoor`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `iron_hoe`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `iron_axe`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `iron_sword`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `iron_shovel`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `iron_pickaxe`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `iron_helmet`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `iron_chestplate`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `iron_leggings`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `iron_boots`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `hopper`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `heavy_weighted_pressure_plate`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `golden_helmet`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `golden_chestplate`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `golden_leggings`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `golden_boots`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `golden_hoe`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `golden_axe`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `golden_sword`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `golden_shovel`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `golden_pickaxe`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `chainmail_helmet`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `chainmail_chestplate`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `chainmail_leggings`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `chainmail_boots`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `diamond_helmet`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `diamond_chestplate`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `diamond_leggings`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `diamond_boots`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `diamond_hoe`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `diamond_axe`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `diamond_sword`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `diamond_shovel`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `diamond_pickaxe`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tippedarrow`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `spectral_arrow`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `string_to_wool`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `white_concrete_powder`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `white_bed`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `yellow_dye_from_sunflower`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `yellow_dye_from_dandelion`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `yellow_concrete_powder`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `yellow_bed`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `red_dye_from_tulip`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `red_dye_from_rose_bush`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `red_dye_from_poppy`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `red_dye_from_beetroot`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `red_concrete_powder`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `red_bed`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `purple_concrete_powder`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `purple_bed`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pink_dye_from_pink_tulip`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pink_dye_from_peony`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pink_concrete_powder`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pink_bed`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `orange_dye_from_orange_tulip`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `orange_concrete_powder`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `orange_bed`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `magenta_dye_from_lilac`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `magenta_dye_from_allium`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `magenta_concrete_powder`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `magenta_bed`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lime_concrete_powder`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `magenta_concrete_powder`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lime_bed`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `light_gray_dye_from_white_tulip`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `light_gray_dye_from_oxeye_daisy`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `light_gray_dye_from_ink_bonemeal`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `light_gray_dye_from_azure_bluet`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `light_gray_concrete_powder`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `light_gray_bed`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `gray_concrete_powder`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `gray_bed`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `light_blue_dye_from_blue_orchid`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `light_blue_concrete_powder`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `light_blue_bed`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `blue_stained_hardened_clay`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `blue_stained_glass`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `blue_concrete_powder`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `blue_bed_from_white_bed`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `blue_bed`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `green_concrete_powder`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `green_bed`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyan_concrete_powder`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cyan_bed`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `brown_concrete_powder`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `brown_bed`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `black_wool`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `black_stained_hardened_clay`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `black_stained_glass`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `black_concrete_powder`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `black_bed_from_white_bed`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `black_bed`, expected `tfc`. This could be a intended override, but in most cases indicates a broken mod.
+[22:22:58] [Client thread/INFO] [GregTech]: Running early material handlers...
+[22:23:00] [Client thread/INFO] [GregTechFoodOption]: Registering recipe low...
+[22:23:00] [Client thread/INFO] [GregTechFoodOption]: Registering ore prefix...
+[22:23:00] [Client thread/INFO] [GregTech]: Running late material handlers...
+[22:23:01] [Client thread/INFO] [GregTechFoodOption]: Registering recipe very low...
+[22:23:01] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `gregtech` for name `paper`, expected `gregtechfoodoption`. This could be a intended override, but in most cases indicates a broken mod.
+[22:23:01] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sticky_piston`, expected `gregtechfoodoption`. This could be a intended override, but in most cases indicates a broken mod.
+[22:23:01] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `gregtech` for name `sticky_piston_resin`, expected `gregtechfoodoption`. This could be a intended override, but in most cases indicates a broken mod.
+[22:23:01] [Client thread/INFO] [FML]: Applying holder lookups
+[22:23:01] [Client thread/INFO] [FML]: Holder lookups applied
+[22:23:01] [Client thread/INFO] [GregTechTransformer]: Patched method init()V in codechicken/lib/internal/ModDescriptionEnhancer successfully
+[22:23:01] [Client thread/INFO] [jei]: Created: 256x128 textures-atlas
+[22:23:01] [Client thread/INFO] [forestry]: Created: 256x128 textures-atlas
+[22:23:01] [Client thread/INFO] [FML]: Ignored smelting recipe with conflicting input: 1xtile.for.resources@0 = 1xitem.for.apatite@0
+[22:23:01] [Client thread/INFO] [FML]: Ignored smelting recipe with conflicting input: 1xtile.for.resources@1 = 1xitem.for.ingot_copper@0
+[22:23:01] [Client thread/INFO] [FML]: Ignored smelting recipe with conflicting input: 1xtile.for.resources@2 = 1xitem.for.ingot_tin@0
+[22:23:01] [Client thread/INFO] [GregTech]: TheOneProbe found. Enabling integration...
+[22:23:01] [Client thread/INFO] [GregTech]: Initializing ore generation registry...
+[22:23:01] [Client thread/INFO] [GregTech]: Reloading ore generation files from config...
+[22:23:01] [Client thread/INFO] [GregTech]: Loaded 45 vein worldgen definitions
+[22:23:01] [Client thread/INFO] [GregTech]: Loaded 8 bedrock worldgen definitions
+[22:23:01] [Client thread/INFO] [GregTech]: Loaded 0 worldgen definitions from addon mods
+[22:23:01] [Client thread/INFO] [GregTech]: Loaded 0 bedrock worldgen definitions from addon mods
+[22:23:01] [Client thread/INFO] [GregTech]: Loaded 53 total worldgen definitions
+[22:23:01] [Client thread/INFO] [GregTech]: Registering cover behaviors...
+[22:23:01] [Client thread/INFO] [GregTech]: Registering dungeon loot...
+[22:23:01] [Client thread/INFO] [AE2:C]: Initialization ( started )
+[22:23:01] [Client thread/INFO] [AE2:C]: Starting AE2 CSV Export
+[22:23:01] [AE2 CSV Export/INFO] [AE2:C]: Cache is enabled. Checking for new mod configurations.
+[22:23:01] [AE2 CSV Export/INFO] [AE2:C]: Same mod configuration was found. Not updating CSV content.
+[22:23:02] [Client thread/INFO] [AE2:C]: Initialization ( ended after 110ms )
+[22:23:02] [Client thread/INFO] [journeymap]: JourneyMap log initialized.
+[22:23:02] [Client thread/INFO] [journeymap]: initialize ENTER
+[22:23:02] [Client thread/WARN] [journeymap]: core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[22:23:02] [Client thread/WARN] [journeymap]: core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[22:23:02] [Client thread/INFO] [journeymap]: [ClientAPI] built with JourneyMap API 1.4
+[22:23:02] [Client thread/INFO] [journeymap]: Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[22:23:02] [Client thread/INFO] [journeymap]: Initialized IClientPlugin: com.teamacronymcoders.base.modules.journeymap.JourneyMapPlugin
+[22:23:02] [Client thread/INFO] [journeymap]: initialize EXIT, elapsed count 0 avg ?ms
+[22:23:02] [Client thread/INFO] [FML]: Injecting itemstacks
+[22:23:02] [Client thread/INFO] [FML]: Itemstack injection complete
+[22:23:02] [Client thread/WARN] [FML]: No types have been added to Biome appliedenergistics2:storage_biome, types have been assigned on a best-effort guess: [PLAINS, COLD]
+[22:23:03] [Client thread/INFO] [GregTech]: RefinedStorage not found; skipping integration.
+[22:23:03] [Client thread/INFO] [GregTech]: AppliedEnergistics2 found; enabling integration.
+[22:23:03] [Client thread/INFO] [tfc]: Registered animal food data for tfc:alpacatfc
+[22:23:03] [Client thread/INFO] [tfc]: Registered animal food data for tfc:cameltfc
+[22:23:03] [Client thread/INFO] [tfc]: Registered animal food data for tfc:chickentfc
+[22:23:03] [Client thread/INFO] [tfc]: Registered animal food data for tfc:cowtfc
+[22:23:03] [Client thread/INFO] [tfc]: Registered animal food data for tfc:donkeytfc
+[22:23:03] [Client thread/INFO] [tfc]: Registered animal food data for tfc:ducktfc
+[22:23:03] [Client thread/INFO] [tfc]: Registered animal food data for tfc:goattfc
+[22:23:03] [Client thread/INFO] [tfc]: Registered animal food data for tfc:horsetfc
+[22:23:03] [Client thread/INFO] [tfc]: Registered animal food data for tfc:llamatfc
+[22:23:03] [Client thread/INFO] [tfc]: Registered animal food data for tfc:muletfc
+[22:23:03] [Client thread/INFO] [tfc]: Registered animal food data for tfc:ocelottfc
+[22:23:03] [Client thread/INFO] [tfc]: Registered animal food data for tfc:pigtfc
+[22:23:03] [Client thread/INFO] [tfc]: Registered animal food data for tfc:sheeptfc
+[22:23:03] [Client thread/INFO] [tfc]: Registered animal food data for tfc:wolftfc
+[22:23:03] [Client thread/INFO] [tfc]: Registered animal food data for tfc:yaktfc
+[22:23:03] [Client thread/INFO] [tfc]: Registered animal food data for tfc:muskoxtfc
+[22:23:03] [Client thread/INFO] [tfc]: Registered animal food data for tfc:zebutfc
+[22:23:03] [Client thread/INFO] [tfc]: Registered animal food data for tfc:quailtfc
+[22:23:03] [Client thread/INFO] [tfc]: Registered animal food data for tfc:grousetfc
+[22:23:03] [Client thread/INFO] [tfc]: Registered animal food data for tfc:parrottfc
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein native_copper: {ore=native_copper, shape=CLUSTER, size=32, rarity=160, baseRocks=[dacite, rhyolite, basalt, andesite], minY=5, maxY=100, density=0.42}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein native_gold: {ore=native_gold, shape=CLUSTER, size=32, rarity=170, baseRocks=[dacite, rhyolite, basalt, diorite, gabbro, andesite, granite], minY=5, maxY=120, density=0.42}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein native_platinum: {ore=native_platinum, shape=CLUSTER, size=12, rarity=180, baseRocks=[rocksalt, claystone, dolomite, shale, chert, chalk, conglomerate, limestone], minY=80, maxY=140, density=0.36}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein native_silver: {ore=native_silver, shape=CLUSTER, size=28, rarity=120, baseRocks=[gneiss, granite], minY=5, maxY=128, density=0.42}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein hematite: {ore=hematite, shape=CLUSTER, size=28, rarity=130, baseRocks=[dacite, rhyolite, basalt, andesite], minY=5, maxY=128, density=0.42}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein cassiterite: {ore=cassiterite, shape=CLUSTER, size=28, rarity=160, baseRocks=[diorite, gabbro, granite], minY=5, maxY=110, density=0.42}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein bismuthinite: {ore=bismuthinite, shape=CLUSTER, size=28, rarity=180, baseRocks=[dacite, rhyolite, rocksalt, claystone, basalt, dolomite, shale, chert, andesite, chalk, conglomerate, limestone], minY=5, maxY=100, density=0.42}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein garnierite: {ore=garnierite, shape=SPHERE, size=22, rarity=120, baseRocks=[gabbro], minY=5, maxY=128, density=0.42}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein malachite: {ore=malachite, shape=CLUSTER, size=28, rarity=160, baseRocks=[limestone, marble], minY=90, maxY=144, density=0.42}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein magnetite: {ore=magnetite, shape=CLUSTER, size=28, rarity=180, baseRocks=[rocksalt, claystone, dolomite, shale, chert, chalk, conglomerate, limestone], minY=110, maxY=144, density=0.42}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein limonite: {ore=limonite, shape=CLUSTER, size=28, rarity=180, baseRocks=[rocksalt, claystone, dolomite, shale, chert, chalk, conglomerate, limestone], minY=90, maxY=144, density=0.42}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein sphalerite: {ore=sphalerite, shape=CLUSTER, size=32, rarity=160, baseRocks=[quartzite, slate, gneiss, phyllite, schist, marble], minY=50, maxY=100, density=0.42}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein tetrahedrite: {ore=tetrahedrite, shape=CLUSTER, size=28, rarity=160, baseRocks=[quartzite, slate, gneiss, phyllite, schist, marble], minY=40, maxY=110, density=0.42}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein bithminous_coal: {ore=bituminous_coal, shape=CLUSTER, size=38, rarity=160, baseRocks=[rocksalt, claystone, dolomite, shale, chert, chalk, conglomerate, limestone], minY=90, maxY=144, density=0.36}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein lignite: {ore=lignite, shape=CLUSTER, size=28, rarity=140, baseRocks=[rocksalt, claystone, dolomite, shale, chert, chalk, conglomerate, limestone], minY=90, maxY=144, density=0.36}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein kaolinite: {ore=kaolinite, shape=CLUSTER, size=24, rarity=140, baseRocks=[rocksalt, claystone, dolomite, shale, chert, chalk, conglomerate, limestone], minY=90, maxY=144, density=0.42}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein graphite: {ore=graphite, shape=CLUSTER, size=24, rarity=120, baseRocks=[quartzite, gneiss, marble, schist], minY=55, maxY=144, density=0.42}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein kimberlite: {ore=kimberlite, shape=CLUSTER, size=20, rarity=200, baseRocks=[gabbro], minY=5, maxY=128, density=0.30}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein cinnabar: {ore=cinnabar, shape=SPHERE, size=16, rarity=150, baseRocks=[dacite, rhyolite, quartzite, basalt, shale, andesite], minY=5, maxY=128, density=0.36}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein cryolite: {ore=cryolite, shape=SPHERE, size=16, rarity=100, baseRocks=[granite], minY=5, maxY=128, density=0.42}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein saltpeter: {ore=saltpeter, shape=SPHERE, size=16, rarity=150, baseRocks=[rocksalt, claystone, dolomite, shale, chert, chalk, conglomerate, limestone], minY=90, maxY=144, density=0.42}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein sylvite: {ore=sylvite, shape=SPHERE, size=16, rarity=110, baseRocks=[rocksalt], minY=110, maxY=144, density=0.36}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein borax: {ore=borax, shape=SPHERE, size=16, rarity=120, baseRocks=[rocksalt], minY=110, maxY=144, density=0.42}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein gypsum: {ore=gypsum, shape=SPHERE, size=16, rarity=120, baseRocks=[rocksalt, claystone, dolomite, shale, chert, chalk, conglomerate, limestone], minY=110, maxY=144, density=0.42}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein sulfur: {ore=sulfur, shape=CLUSTER, size=22, rarity=140, baseRocks=[dacite, rhyolite, basalt, andesite], minY=5, maxY=144, density=0.42}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein lapis_lazuli: {ore=lapis_lazuli, shape=CLUSTER, size=26, rarity=120, baseRocks=[marble], minY=110, maxY=144, density=0.42}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein surface_native_copper: {ore=native_copper, shape=CLUSTER, size=16, rarity=60, baseRocks=[dacite, rhyolite, basalt, andesite], minY=100, maxY=160, density=0.24}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein surface_cassiterite: {ore=cassiterite, shape=CLUSTER, size=16, rarity=60, baseRocks=[granite], minY=100, maxY=160, density=0.24}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein surface_bismuthinite: {ore=bismuthinite, shape=CLUSTER, size=16, rarity=75, baseRocks=[dacite, rhyolite, rocksalt, claystone, basalt, dolomite, shale, chert, andesite, chalk, conglomerate, limestone], minY=100, maxY=160, density=0.24}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein surface_sphalerite: {ore=sphalerite, shape=CLUSTER, size=16, rarity=60, baseRocks=[quartzite, slate, gneiss, phyllite, schist, marble], minY=100, maxY=160, density=0.24}
+[22:23:03] [Client thread/INFO] [tfc]: Registered new vein surface_tetrahedrite: {ore=tetrahedrite, shape=CLUSTER, size=16, rarity=60, baseRocks=[quartzite, slate, gneiss, phyllite, schist, marble], minY=100, maxY=160, density=0.24}
+[22:23:03] [Client thread/INFO] [tfc]: Vein Registry Initialized, with 31 veins, 38 max radius, 0.26214969670852023 total weight
+[22:23:03] [Client thread/INFO] [tfc]: Entity resistance data initialized, loaded a total of 8 resistance configurations
+[22:23:03] [Client thread/INFO] [AE2:C]: Post Initialization ( started )
+[22:23:03] [Client thread/INFO] [AE2:C]: Industrial Craft 2 - Integration Disabled
+[22:23:03] [Client thread/INFO] [AE2:C]: GregTech - Integration Enable
+[22:23:03] [Client thread/INFO] [AE2:C]: Railcraft - Integration Disabled
+[22:23:03] [Client thread/INFO] [AE2:C]: Mine Factory Reloaded - Integration Disabled
+[22:23:03] [Client thread/INFO] [AE2:C]: Waila - Integration Disabled
+[22:23:03] [Client thread/INFO] [AE2:C]: Inventory Tweaks - Integration Disabled
+[22:23:03] [Client thread/INFO] [AE2:C]: Just Enough Items - Integration Enable
+[22:23:03] [Client thread/INFO] [AE2:C]: Mekanism - Integration Disabled
+[22:23:03] [Client thread/INFO] [AE2:C]: OpenComputers - Integration Disabled
+[22:23:03] [Client thread/INFO] [AE2:C]: TheOneProbe - Integration Enable
+[22:23:03] [Client thread/INFO] [AE2:C]: Tesla - Integration Disabled
+[22:23:03] [Client thread/INFO] [AE2:C]: CraftTweaker - Integration Enable
+[22:23:04] [Client thread/INFO] [AE2:C]: Post Initialization ( ended after 302ms )
+[22:23:04] [Client thread/INFO] [journeymap]: Added entity icons from journeymap:icon/entity. Success: false
+[22:23:04] [Client thread/INFO] [journeymap]: Preloaded theme textures: 73
+[22:23:04] [Client thread/WARN] [keywizard]: Controls gui override enabled, this may cause problems with other mods
+[22:23:04] [Client thread/INFO] [jei]: Starting JEI...
+[22:23:04] [Client thread/INFO] [GregTechTransformer]: Patched method addModNameToIngredientTooltip(Ljava/util/List;Ljava/lang/Object;Lmezz/jei/api/ingredients/IIngredientHelper;)Ljava/util/List; in mezz/jei/startup/ForgeModIdHelper successfully
+[22:23:05] [Client thread/INFO] [jei]: Registering recipe categories...
+[22:23:05] [Client thread/INFO] [jei]: Registering recipe categories took 116.1 ms
+[22:23:05] [Client thread/INFO] [jei]: Registering mod plugins...
+[22:23:06] [Client thread/INFO] [jei]: Added recipe registry plugin: class appeng.integration.modules.jei.FacadeRegistryPlugin
+[22:23:06] [Client thread/INFO] [jei]: Added recipe registry plugin: class gregtech.integration.jei.recipe.FacadeRegistryPlugin
+[22:23:06] [Client thread/INFO] [jei]: Registering mod plugins took 1.320 s
+[22:23:06] [Client thread/INFO] [jei]: Building recipe registry...
+[22:23:08] [Client thread/INFO] [jei]: Building recipe registry took 1.075 s
+[22:23:08] [Client thread/INFO] [jei]: Building ingredient list...
+[22:23:08] [Client thread/INFO] [jei]: Building ingredient list took 239.2 ms
+[22:23:08] [Client thread/INFO] [jei]: Building ingredient filter...
+[22:23:09] [Client thread/INFO] [jei]: Building ingredient filter took 1.562 s
+[22:23:09] [Client thread/INFO] [jei]: Building bookmarks...
+[22:23:09] [Client thread/INFO] [jei]: Building bookmarks took 6.300 ms
+[22:23:09] [Client thread/INFO] [jei]: Building runtime...
+[22:23:09] [Client thread/INFO] [jei]: Building runtime took 56.87 ms
+[22:23:09] [Client thread/INFO] [jei]: Starting JEI took 4.971 s
+[22:23:15] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 21 mods
+[22:23:15] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[22:23:15] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[22:23:15] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[22:23:15] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: The following texture errors were found.
+[22:23:15] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: ==================================================
+[22:23:15] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:   DOMAIN gregtech
+[22:23:15] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: --------------------------------------------------
+[22:23:15] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:   domain gregtech is missing 3 textures
+[22:23:15] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:     domain gregtech has 2 locations:
+[22:23:15] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       mod gregtechfoodoption resources at C:\Dev\MC\TactumGramenAddon\libs\GregTech Food Option-1.12.2-1.4.3.jar
+[22:23:15] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       mod gregtech resources at C:\Dev\MC\TactumGramenAddon\libs\gregtech-1.12.2-2.2.0-beta.jar
+[22:23:15] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: -------------------------
+[22:23:15] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:     The missing resources for domain gregtech are:
+[22:23:15] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/blocks/material_sets/organic/fluid.png
+[22:23:15] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/blocks/material_sets/organic/block.png
+[22:23:15] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:       textures/blocks/material_sets/organic/ore.png
+[22:23:15] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: -------------------------
+[22:23:15] [Client thread/ERROR] [FML.TEXTURE_ERRORS]:     No other errors exist for domain gregtech
+[22:23:15] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: ==================================================
+[22:23:15] [Client thread/ERROR] [FML.TEXTURE_ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[22:23:15] [Client thread/INFO] [GregTechTransformer]: Patched method rebuildChunk(FFFLnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;)V in net/minecraft/client/renderer/chunk/RenderChunk successfully
+[22:23:16] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[22:23:27] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[22:23:27] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[22:23:28] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[22:23:31] [Server thread/INFO] [FML]: Applying holder lookups
+[22:23:31] [Server thread/INFO] [FML]: Holder lookups applied
+[22:23:31] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@5ccfdaa6)
+[22:23:31] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 676 advancements
+[22:23:32] [Server thread/WARN] [tfc]: Updating gamerule naturalRegeneration to false!
+[22:23:32] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@5ccfdaa6)
+[22:23:32] [Server thread/WARN] [tfc]: Updating gamerule naturalRegeneration to false!
+[22:23:32] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@5ccfdaa6)
+[22:23:32] [Server thread/WARN] [tfc]: Updating gamerule naturalRegeneration to false!
+[22:23:32] [Server thread/INFO] [FML]: Loading dimension 2 (New World) (net.minecraft.server.integrated.IntegratedServer@5ccfdaa6)
+[22:23:32] [Server thread/WARN] [tfc]: Updating gamerule naturalRegeneration to false!
+[22:23:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[22:23:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 81%
+[22:23:33] [Server thread/INFO] [FML]: Unloading dimension -1
+[22:23:33] [Server thread/INFO] [FML]: Unloading dimension 1
+[22:23:33] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[22:23:33] [Server thread/INFO] [tfc]: World time and Calendar Time are out of sync! Trying to fix...
+[22:23:33] [Server thread/INFO] [tfc]: Calendar Time = 1012567 (22567), Player Time = 46381, World Time = 22565, doDaylightCycle = true, ArePlayersLoggedOn = true
+[22:23:33] [Server thread/INFO] [tfc]: Setting ArePlayersLoggedOn = false
+[22:23:33] [Server thread/INFO] [tfc]: Forced doDaylightCycle to false as no players are logged in. Will revert to true as soon as a player logs in.
+[22:23:33] [Server thread/INFO] [tfc]: Calendar is ahead by 2 ticks, jumping world time to catch up
+[22:23:34] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[22:23:34] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[22:23:34] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 21 mods : minecraft@1.12.2,ctgui@1.0.0,FML@8.0.99.99,theoneprobe@1.4.23,bansoukou@4.3.1,jei@4.15.0.291,tangeherbamaddon@1.0,tfc@1.7.23.181,crafttweaker@4.1.20,gregtechfoodoption@1.12.2-1.4.3,contenttweaker@1.12.2-4.10.0,forge@14.23.5.2847,codechickenlib@3.2.3.358,gregtech@2.2.0-beta,mcp@9.42,forestry@5.8.2.387,ctm@MC1.12.2-1.0.2.31,journeymap@1.12.2-5.7.1,appliedenergistics2@rv6-stable-7-extended_life-v51e,keywizard@1.12.2-1.7.3,base@3.14.0
+[22:23:34] [Netty Server IO #1/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[22:23:34] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[22:23:34] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[22:23:34] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player783[local:E:77416f48] logged in with entity id 289 at (-134.41199574568816, 179.00451692612856, 277.46690138898646)
+[22:23:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player783 joined the game
+[22:23:34] [Client thread/WARN] [tfc]: Updating gamerule naturalRegeneration to false!
+[22:23:34] [Client thread/INFO] [GregTechTransformer]: Patched method <init>()V in net/minecraft/client/renderer/RegionRenderCacheBuilder successfully
+[22:23:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player783 has made the advancement [Just a Rock]
+[22:23:34] [Server thread/INFO] [tfc]: Player Logged In - Checking for Calendar Updates.
+[22:23:34] [Server thread/INFO] [tfc]: Reverted doDaylightCycle to true as players are logged in.
+[22:23:36] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[22:23:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[22:23:36] [Client thread/INFO] [GregTech]: No optiFine mod found.
+[22:23:36] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player783 has made the advancement [Just a Rock]
+[22:23:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/Storage Cell
+[22:23:37] [Server thread/INFO] [tfc]: World time and Calendar Time are out of sync! Trying to fix...
+[22:23:37] [Server thread/INFO] [tfc]: Calendar Time = 1012568 (22568), Player Time = 46382, World Time = 22573, doDaylightCycle = true, ArePlayersLoggedOn = true
+[22:23:37] [Server thread/INFO] [tfc]: Calendar is behind by 5 ticks, jumping calendar time to catch up
+[22:23:37] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 8 advancements
+[22:23:37] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2421ms behind, skipping 48 tick(s)
+[22:23:38] [Server thread/INFO] [tfc]: World time and Calendar Time are out of sync! Trying to fix...
+[22:23:38] [Server thread/INFO] [tfc]: Calendar Time = 1012574 (22574), Player Time = 46382, World Time = 22635, doDaylightCycle = true, ArePlayersLoggedOn = true
+[22:23:38] [Server thread/INFO] [tfc]: Calendar is behind by 61 ticks, jumping calendar time to catch up
+[22:23:38] [Server thread/INFO] [tfc]: World time and Calendar Time are out of sync! Trying to fix...
+[22:23:38] [Server thread/INFO] [tfc]: Calendar Time = 1012628 (22628), Player Time = 46437, World Time = 22637, doDaylightCycle = true, ArePlayersLoggedOn = true
+[22:23:38] [Server thread/INFO] [tfc]: Calendar is behind by 9 ticks, jumping calendar time to catch up
+[22:23:38] [Server thread/INFO] [tfc]: World time and Calendar Time are out of sync! Trying to fix...
+[22:23:38] [Server thread/INFO] [tfc]: Calendar Time = 1012638 (22638), Player Time = 46438, World Time = 22642, doDaylightCycle = true, ArePlayersLoggedOn = true
+[22:23:38] [Server thread/INFO] [tfc]: Calendar is behind by 4 ticks, jumping calendar time to catch up
+[22:23:38] [Client thread/WARN] [journeymap]: core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[22:23:38] [Client thread/WARN] [journeymap]: core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[22:23:38] [Client thread/INFO] [journeymap]: Loaded 0 waypoints from .\journeymap\data\sp\New World~\waypoints
+[22:23:38] [Client thread/INFO] [journeymap]: Mapping started in .\journeymap\data\sp\New World~\DIM0. Memory: 3999MB total, 1833MB free 
+[22:23:38] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JourneyMap: Press [J]
+[22:23:38] [Client thread/INFO] [journeymap]: JourneyMap: Press [J]
+[22:23:38] [Server thread/INFO] [tfc]: World time and Calendar Time are out of sync! Trying to fix...
+[22:23:38] [Server thread/INFO] [tfc]: Calendar Time = 1012647 (22647), Player Time = 46444, World Time = 22650, doDaylightCycle = true, ArePlayersLoggedOn = true
+[22:23:38] [Server thread/INFO] [tfc]: Calendar is behind by 7 ticks, jumping calendar time to catch up
+[22:23:39] [Server thread/INFO] [tfc]: World time and Calendar Time are out of sync! Trying to fix...
+[22:23:39] [Server thread/INFO] [tfc]: Calendar Time = 1012655 (22655), Player Time = 46445, World Time = 22651, doDaylightCycle = true, ArePlayersLoggedOn = true
+[22:23:39] [Server thread/INFO] [tfc]: Calendar is ahead by 4 ticks, jumping world time to catch up
+[22:24:46] [Server thread/INFO] [tfc]: World time and Calendar Time are out of sync! Trying to fix...
+[22:24:46] [Server thread/INFO] [tfc]: Calendar Time = 1013999 (23999), Player Time = 47789, World Time = 0, doDaylightCycle = true, ArePlayersLoggedOn = true
+[22:24:46] [Server thread/INFO] [tfc]: Calendar is ahead by 23999 ticks, jumping world time to catch up
+[22:25:38] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[22:25:38] [Client thread/INFO] [journeymap]: Mapping halted in .\journeymap\data\sp\New World~\DIM0
+[22:25:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[22:25:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[22:25:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[22:25:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[22:25:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/Storage Cell
+[22:25:39] [Server thread/INFO] [FML]: Unloading dimension 0
+[22:25:39] [Server thread/INFO] [FML]: Unloading dimension 2
+[22:25:42] [Server thread/INFO] [FML]: Applying holder lookups
+[22:25:42] [Server thread/INFO] [FML]: Holder lookups applied
+[22:25:42] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[22:25:42] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

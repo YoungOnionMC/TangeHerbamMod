@@ -95,15 +95,8 @@ dependencies {
     "deobfCompile"("team.chisel.ctm:CTM:MC$mcVersion-${config["ctm.version"]}")
 
     "provided"(files("libs/gregtech-1.12.2-${config["gregtech.version"]}.jar"))
-
-    //"provided"(files("libs/gregtech-1.12.2-${config["gregtech.version"]}.jar"))
-    //"provided"(files("libs/CTM-MC1.12.2-${config["ctm.version"]}.jar"))
-    //"provided"(files("libs/jei_$mcVersion:${config["jei.version"]}"))
-    //"provided"(files("libs/CodeChickenLib-$mcVersion-${config["ccl.version"]}-universal"))
-    //"provided"(files("libs/theoneprobe-$shortVersion-${config["top.version"]}.jar"))
-    //"provided"(files("libs/CraftTweaker2-$shortVersion-${config["crafttweaker.version"]}.jar"))
-    //"provided"(files("libs/gregtech-1.12.2-${config["gregtech.version"]}.jar"))
-    //"provided"(files("libs/gregtech-1.12.2-${config["gregtech.version"]}.jar"))
+    "provided"(files("libs/TerraFirmaCraft-MC1.12.2-1.7.23.181-deobf.jar"))
+    "provided"(files("libs/GregTech Food Option$mcVersion-${config["gtfo.version"]}.jar"))
 
     // JUnit testing used for GitHub Actions
     "testImplementation"("junit:junit:${config["junit.version"]}")
