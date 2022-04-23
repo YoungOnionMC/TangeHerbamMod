@@ -30,7 +30,7 @@ public class THMod {
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-        //proxy.init(event);
+        //proxy.init();
 
     }
 }

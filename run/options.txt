@@ -49,7 +49,7 @@ attackIndicator:1
 showSubtitles:false
 realmsNotifications:true
 enableWeakAttacks:false
-autoJump:true
+autoJump:false
 narrator:0
 tutorialStep:none
 key_key.attack:-100
@@ -85,6 +85,10 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
+key_gregtech.key.armor_mode_switch:50
+key_gregtech.key.armor_hover:35
+key_gregtech.key.armor_charging:49
+key_gregtech.key.tool_aoe_change:47
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -96,18 +100,14 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
-key_key.toggleLiquids:38
-key_key.toggleVisible:0
-key_key.toggle_focus.desc:15
-key_ALT Menu:56
-key_Mode Switch:50
-key_Jetpack Hover:35
-key_Armor Charging:49
-key_keywizard.keybind.openKeyboardWizard:65
 key_tfc.key.craft:46
 key_tfc.key.placeblock:47
 key_tfc.key.itemmode:50
 key_tfc.key.stack:45
+key_key.toggleLiquids:38
+key_key.toggleVisible:0
+key_key.toggle_focus.desc:15
+key_keywizard.keybind.openKeyboardWizard:65
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
 key_key.journeymap.minimap_type:26
@@ -124,7 +124,7 @@ key_key.journeymap.fullscreen.north:200
 key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
-soundCategory_master:0.059602648
+soundCategory_master:0.5927152
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
