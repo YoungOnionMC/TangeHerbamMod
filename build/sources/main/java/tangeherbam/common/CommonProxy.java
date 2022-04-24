@@ -1,5 +1,6 @@
 package tangeherbam.common;
 
+import gregtech.api.metatileentity.MetaTileEntity;
 import gregtech.api.sound.GTSounds;
 import gregtech.common.blocks.MetaBlocks;
 import gregtech.common.metatileentities.steam.SteamAlloySmelter;
@@ -17,6 +18,7 @@ import tangeherbam.THValues;
 
 import gregtech.common.metatileentities.MetaTileEntities;
 
+import static gregtech.api.GregTechAPI.MTE_REGISTRY;
 import static net.dries007.tfc.api.util.FallingBlockManager.Specification.*;
 
 @Mod.EventBusSubscriber(modid = THValues.MODID)
@@ -26,8 +28,10 @@ public class CommonProxy {
         FallingBlockManager.Specification spec = new FallingBlockManager.Specification(true, ()->GTSounds.CHEMICAL_REACTOR);
         //spec = new FallingBlockManager.Specification(false, ()->GTSounds.ARC);
         //for(Rock rock : TFCRegistries.ROCKS.getValuesCollection()) {
-            spec.setResultingState(MetaBlocks.ASPHALT.getDefaultState());
+        for(MetaTileEntity mte : MTE_REGISTRY) {
+            spec.setResultingState(MetaBlocks.MACHINE.getDefaultState());
             FallingBlockManager.registerFallable(state, spec);
+        }
         //}
     }
 

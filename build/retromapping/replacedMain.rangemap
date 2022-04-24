@@ -1,0 +1,157 @@
+Unsupposrted library path: C:\Dev\MC\TactumGramenAddon\build\classes\java\api
+Unsupposrted library path: C:\Dev\MC\TactumGramenAddon\build\resources\api
+Symbol range map extraction starting
+Processing 6 files
+startProcessing "tangeherbam/THMod.java" md5: de572206cbd913839a95e5d052a278c8
+@|tangeherbam/THMod.java|8|19|tangeherbam|package|tangeherbam|(file)
+Class Start: tangeherbam.THMod
+   @|tangeherbam/THMod.java|407|410|Mod|class|net.minecraftforge.fml.common.Mod|false
+   @|tangeherbam/THMod.java|411|416|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|tangeherbam/THMod.java|419|427|THValues|class|tangeherbam.THValues|false
+   @|tangeherbam/THMod.java|428|433|MODID|field|tangeherbam.THValues|MODID
+   @|tangeherbam/THMod.java|435|439|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|tangeherbam/THMod.java|462|469|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|tangeherbam/THMod.java|472|480|THValues|class|tangeherbam.THValues|false
+   @|tangeherbam/THMod.java|481|488|VERSION|field|tangeherbam.THValues|VERSION
+   @|tangeherbam/THMod.java|499|524|acceptedMinecraftVersions|method|net.minecraftforge.fml.common.Mod|acceptedMinecraftVersions|()Ljava/lang/String;
+   @|tangeherbam/THMod.java|543|555|dependencies|method|net.minecraftforge.fml.common.Mod|dependencies|()Ljava/lang/String;
+   @|tangeherbam/THMod.java|594|608|CodeChickenLib|class|codechicken.lib.CodeChickenLib|false
+   @|tangeherbam/THMod.java|609|624|MOD_VERSION_DEP|field|codechicken.lib.CodeChickenLib|MOD_VERSION_DEP
+   @|tangeherbam/THMod.java|711|716|THMod|class|tangeherbam.THMod|false
+   @|tangeherbam/THMod.java|777|782|THMod|class|tangeherbam.THMod|false
+   @|tangeherbam/THMod.java|725|737|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance|false
+   @|tangeherbam/THMod.java|777|782|THMod|class|tangeherbam.THMod|false
+   @|tangeherbam/THMod.java|783|791|instance|field|tangeherbam.THMod|instance|
+   @|tangeherbam/THMod.java|953|964|CommonProxy|class|tangeherbam.common.CommonProxy|false
+   @|tangeherbam/THMod.java|801|811|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy|false
+   @|tangeherbam/THMod.java|812|817|modId|method|net.minecraftforge.fml.common.SidedProxy|modId|()Ljava/lang/String;
+   @|tangeherbam/THMod.java|840|850|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|tangeherbam/THMod.java|887|897|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|tangeherbam/THMod.java|953|964|CommonProxy|class|tangeherbam.common.CommonProxy|false
+   @|tangeherbam/THMod.java|965|970|proxy|field|tangeherbam.THMod|proxy|
+   Method Start: onConstruction(Lnet/minecraftforge/fml/common/event/FMLConstructionEvent;)V
+      @|tangeherbam/THMod.java|1050|1055|event|param|tangeherbam.THMod|onConstruction|(Lnet/minecraftforge/fml/common/event/FMLConstructionEvent;)V|event|0
+      @|tangeherbam/THMod.java|980|996|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|tangeherbam/THMod.java|1014|1028|onConstruction|method|tangeherbam.THMod|onConstruction|(Lnet/minecraftforge/fml/common/event/FMLConstructionEvent;)V
+      @|tangeherbam/THMod.java|1029|1049|FMLConstructionEvent|class|net.minecraftforge.fml.common.event.FMLConstructionEvent|false
+   Method End: onConstruction(Lnet/minecraftforge/fml/common/event/FMLConstructionEvent;)V
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|tangeherbam/THMod.java|1142|1147|event|param|tangeherbam.THMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|tangeherbam/THMod.java|1074|1090|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|tangeherbam/THMod.java|1108|1115|preInit|method|tangeherbam.THMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|tangeherbam/THMod.java|1116|1141|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|tangeherbam/THMod.java|1160|1165|proxy|field|tangeherbam.THMod|proxy
+      @|tangeherbam/THMod.java|1166|1173|preInit|method|tangeherbam.common.CommonProxy|preInit|()V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|tangeherbam/THMod.java|1254|1259|event|param|tangeherbam.THMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|tangeherbam/THMod.java|1192|1208|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|tangeherbam/THMod.java|1226|1230|init|method|tangeherbam.THMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|tangeherbam/THMod.java|1231|1253|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+Class End  : tangeherbam.THMod
+endProcessing "tangeherbam/THMod.java"
+
+startProcessing "tangeherbam/THValues.java" md5: 3555976fa6295935c32bded93f063e0d
+@|tangeherbam/THValues.java|8|19|tangeherbam|package|tangeherbam|(file)
+Class Start: tangeherbam.THValues
+   @|tangeherbam/THValues.java|37|45|THValues|class|tangeherbam.THValues|false
+   @|tangeherbam/THValues.java|75|81|String|class|java.lang.String|false
+   @|tangeherbam/THValues.java|75|81|String|class|java.lang.String|false
+   @|tangeherbam/THValues.java|82|87|MODID|field|tangeherbam.THValues|MODID|
+   @|tangeherbam/THValues.java|137|143|String|class|java.lang.String|false
+   @|tangeherbam/THValues.java|137|143|String|class|java.lang.String|false
+   @|tangeherbam/THValues.java|144|151|VERSION|field|tangeherbam.THValues|VERSION|
+Class End  : tangeherbam.THValues
+endProcessing "tangeherbam/THValues.java"
+
+startProcessing "tangeherbam/client/ClientProxy.java" md5: 775fff6f505fe7e2587c5036c8b7448d
+@|tangeherbam/client/ClientProxy.java|8|26|tangeherbam.client|package|tangeherbam.client|(file)
+Class Start: tangeherbam.client.ClientProxy
+   @|tangeherbam/client/ClientProxy.java|292|314|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber|false
+   @|tangeherbam/client/ClientProxy.java|315|319|Side|class|net.minecraftforge.fml.relauncher.Side|false
+   @|tangeherbam/client/ClientProxy.java|320|326|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+   @|tangeherbam/client/ClientProxy.java|342|353|ClientProxy|class|tangeherbam.client.ClientProxy|false
+   @|tangeherbam/client/ClientProxy.java|362|373|CommonProxy|class|tangeherbam.common.CommonProxy|false
+   Method Start: preInit()V
+      @|tangeherbam/client/ClientProxy.java|382|390|Override|class|java.lang.Override|false
+      @|tangeherbam/client/ClientProxy.java|408|415|preInit|method|tangeherbam.common.CommonProxy|preInit|()V
+      @|tangeherbam/client/ClientProxy.java|435|442|preInit|method|tangeherbam.common.CommonProxy|preInit|()V
+   Method End: preInit()V
+   Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|tangeherbam/client/ClientProxy.java|532|537|event|param|tangeherbam.client.ClientProxy|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|tangeherbam/client/ClientProxy.java|459|473|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|tangeherbam/client/ClientProxy.java|498|512|registerModels|method|tangeherbam.client.ClientProxy|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|tangeherbam/client/ClientProxy.java|513|531|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+   Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+Class End  : tangeherbam.client.ClientProxy
+endProcessing "tangeherbam/client/ClientProxy.java"
+
+startProcessing "tangeherbam/common/CommonProxy.java" md5: cb8f2c73d43cccbd791fdc4ae200ef54
+@|tangeherbam/common/CommonProxy.java|8|26|tangeherbam.common|package|tangeherbam.common|(file)
+Class Start: tangeherbam.common.CommonProxy
+   @|tangeherbam/common/CommonProxy.java|924|946|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber|false
+   @|tangeherbam/common/CommonProxy.java|947|952|modid|method|net.minecraftforge.fml.common.Mod.EventBusSubscriber|modid|()Ljava/lang/String;
+   @|tangeherbam/common/CommonProxy.java|955|963|THValues|class|tangeherbam.THValues|false
+   @|tangeherbam/common/CommonProxy.java|964|969|MODID|field|tangeherbam.THValues|MODID
+   @|tangeherbam/common/CommonProxy.java|985|996|CommonProxy|class|tangeherbam.common.CommonProxy|false
+   Method Start: preInit()V
+      @|tangeherbam/common/CommonProxy.java|1016|1023|preInit|method|tangeherbam.common.CommonProxy|preInit|()V
+      @|tangeherbam/common/CommonProxy.java|1037|1048|IBlockState|class|net.minecraft.block.state.IBlockState|false
+      @|tangeherbam/common/CommonProxy.java|1057|1067|MetaBlocks|class|gregtech.common.blocks.MetaBlocks|false
+      @|tangeherbam/common/CommonProxy.java|1068|1075|MACHINE|field|gregtech.common.blocks.MetaBlocks|MACHINE
+      @|tangeherbam/common/CommonProxy.java|1076|1091|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|tangeherbam/common/CommonProxy.java|1104|1137|FallingBlockManager.Specification|class|net.dries007.tfc.api.util.FallingBlockManager.Specification|false
+      @|tangeherbam/common/CommonProxy.java|1149|1182|FallingBlockManager.Specification|class|net.dries007.tfc.api.util.FallingBlockManager.Specification|false
+      @|tangeherbam/common/CommonProxy.java|1193|1201|GTSounds|class|gregtech.api.sound.GTSounds|false
+      @|tangeherbam/common/CommonProxy.java|1202|1218|CHEMICAL_REACTOR|field|gregtech.api.sound.GTSounds|CHEMICAL_REACTOR
+      @|tangeherbam/common/CommonProxy.java|1388|1402|MetaTileEntity|class|gregtech.api.metatileentity.MetaTileEntity|false
+      @|tangeherbam/common/CommonProxy.java|1409|1421|MTE_REGISTRY|field|gregtech.api.GregTechAPI|MTE_REGISTRY
+      @|tangeherbam/common/CommonProxy.java|1443|1460|setResultingState|method|net.dries007.tfc.api.util.FallingBlockManager.Specification|setResultingState|(Lnet/minecraft/block/state/IBlockState;)V
+      @|tangeherbam/common/CommonProxy.java|1461|1471|MetaBlocks|class|gregtech.common.blocks.MetaBlocks|false
+      @|tangeherbam/common/CommonProxy.java|1472|1479|MACHINE|field|gregtech.common.blocks.MetaBlocks|MACHINE
+      @|tangeherbam/common/CommonProxy.java|1480|1495|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|tangeherbam/common/CommonProxy.java|1513|1532|FallingBlockManager|class|net.dries007.tfc.api.util.FallingBlockManager|false
+      @|tangeherbam/common/CommonProxy.java|1533|1549|registerFallable|method|net.dries007.tfc.api.util.FallingBlockManager|registerFallable|(Lnet/minecraft/block/state/IBlockState;Lnet/dries007/tfc/api/util/FallingBlockManager$Specification;)V
+   Method End: preInit()V
+   Method Start: init(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|tangeherbam/common/CommonProxy.java|1681|1686|event|param|tangeherbam.common.CommonProxy|init|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|tangeherbam/common/CommonProxy.java|1603|1617|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|tangeherbam/common/CommonProxy.java|1644|1648|init|method|tangeherbam.common.CommonProxy|init|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|tangeherbam/common/CommonProxy.java|1649|1671|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register|false
+      @|tangeherbam/common/CommonProxy.java|1672|1679|IRecipe|class|net.minecraft.item.crafting.IRecipe|false
+   Method End: init(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+Class End  : tangeherbam.common.CommonProxy
+endProcessing "tangeherbam/common/CommonProxy.java"
+
+startProcessing "tangeherbam/common/machine/FallingMachine.java" md5: eca3a54e459f0819a29efabfacdc514b
+@|tangeherbam/common/machine/FallingMachine.java|8|34|tangeherbam.common.machine|package|tangeherbam.common.machine|(file)
+Class Start: tangeherbam.common.machine.FallingMachine
+   @|tangeherbam/common/machine/FallingMachine.java|152|166|FallingMachine|class|tangeherbam.common.machine.FallingMachine|false
+   @|tangeherbam/common/machine/FallingMachine.java|175|196|EntityFallingBlockTFC|class|net.dries007.tfc.objects.entity.EntityFallingBlockTFC|false
+   Method Start: FallingMachine(Lnet/minecraft/world/World;)V
+      @|tangeherbam/common/machine/FallingMachine.java|236|241|world|param|tangeherbam.common.machine.FallingMachine|FallingMachine|(Lnet/minecraft/world/World;)V|world|0
+      @|tangeherbam/common/machine/FallingMachine.java|215|229|FallingMachine|method|tangeherbam.common.machine.FallingMachine|FallingMachine|(Lnet/minecraft/world/World;)V
+      @|tangeherbam/common/machine/FallingMachine.java|230|235|World|class|net.minecraft.world.World|false
+      @|tangeherbam/common/machine/FallingMachine.java|260|265|world|param|tangeherbam.common.machine.FallingMachine|FallingMachine|(Lnet/minecraft/world/World;)V|world|0
+   Method End: FallingMachine(Lnet/minecraft/world/World;)V
+Class End  : tangeherbam.common.machine.FallingMachine
+endProcessing "tangeherbam/common/machine/FallingMachine.java"
+
+startProcessing "tangeherbam/common/recipes/MaterialRecipes.java" md5: 365b548a6e97a905bb828402fa003ebf
+@|tangeherbam/common/recipes/MaterialRecipes.java|8|34|tangeherbam.common.recipes|package|tangeherbam.common.recipes|(file)
+Class Start: tangeherbam.common.recipes.MaterialRecipes
+   @|tangeherbam/common/recipes/MaterialRecipes.java|349|364|MaterialRecipes|class|tangeherbam.common.recipes.MaterialRecipes|false
+   @|tangeherbam/common/recipes/MaterialRecipes.java|393|398|Metal|class|net.dries007.tfc.api.types.Metal|false
+   @|tangeherbam/common/recipes/MaterialRecipes.java|388|392|List|class|java.util.List|false
+   @|tangeherbam/common/recipes/MaterialRecipes.java|388|392|List|class|java.util.List|false
+   @|tangeherbam/common/recipes/MaterialRecipes.java|393|398|Metal|class|net.dries007.tfc.api.types.Metal|false
+   @|tangeherbam/common/recipes/MaterialRecipes.java|400|406|metals|field|tangeherbam.common.recipes.MaterialRecipes|metals|
+   @|tangeherbam/common/recipes/MaterialRecipes.java|413|428|ObjectArrayList|class|it.unimi.dsi.fastutil.objects.ObjectArrayList|false
+   Method Start: registerGTMaterialsAsTFCMetals()V
+      @|tangeherbam/common/recipes/MaterialRecipes.java|460|490|registerGTMaterialsAsTFCMetals|method|tangeherbam.common.recipes.MaterialRecipes|registerGTMaterialsAsTFCMetals|()V
+      @|tangeherbam/common/recipes/MaterialRecipes.java|504|510|String|class|java.lang.String|false
+   Method End: registerGTMaterialsAsTFCMetals()V
+Class End  : tangeherbam.common.recipes.MaterialRecipes
+endProcessing "tangeherbam/common/recipes/MaterialRecipes.java"
+
