@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:true
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -124,7 +124,7 @@ key_key.journeymap.fullscreen.north:200
 key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
-soundCategory_master:0.5927152
+soundCategory_master:0.026490066
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

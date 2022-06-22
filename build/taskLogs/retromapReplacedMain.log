@@ -1,10 +1,12 @@
-Processing 6 files
+Processing 7 files
 Start Processing: tangeherbam/THMod.java
 New Key: class net/minecraftforge/fml/common/Mod
 New Key: class net/minecraftforge/fml/common/Mod
 New Key: class net/minecraftforge/fml/common/Mod
 New Key: class net/minecraftforge/fml/common/Mod
 Import: codechicken.lib.CodeChickenLib
+Import: gregtech.GregTechMod
+Import: gregtech.api.GTValues
 Import: net.minecraftforge.fml.common.Mod
 Import: net.minecraftforge.fml.common.SidedProxy
 Import: net.minecraftforge.fml.common.event.FMLConstructionEvent
@@ -27,20 +29,36 @@ End  Processing: tangeherbam/client/ClientProxy.java
 
 Start Processing: tangeherbam/common/CommonProxy.java
 New Key: class net/minecraftforge/fml/common/Mod
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[1076,1091]::getDefaultState->func_176223_P
-New Key: class net/dries007/tfc/api/util/FallingBlockManager
-New Key: class net/dries007/tfc/api/util/FallingBlockManager
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[1478,1493]::getDefaultState->func_176223_P
 New Key: class net/minecraftforge/event/RegistryEvent
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[1520,1535]::getDefaultState->func_176223_P
+New Key: class net/dries007/tfc/api/util/FallingBlockManager
+New Key: class net/dries007/tfc/api/util/FallingBlockManager
+New Key: class net/dries007/tfc/api/util/FallingBlockManager
+New Key: class net/dries007/tfc/api/util/FallingBlockManager
+New Key: class net/dries007/tfc/api/util/FallingBlockManager
+New Key: class net/dries007/tfc/api/util/FallingBlockManager
+Rename method net/minecraft/block/Block/getBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[2441,2454]::getBlockState->func_176194_O
+Rename method net/minecraft/block/state/BlockStateContainer/getBaseState ()Lnet/minecraft/block/state/IBlockState;[2457,2469]::getBaseState->func_177621_b
+New Key: class net/dries007/tfc/api/util/FallingBlockManager
+New Key: class net/dries007/tfc/api/util/FallingBlockManager
+Rename method net/minecraft/block/Block/getBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[2872,2885]::getBlockState->func_176194_O
+Rename method net/minecraft/block/state/BlockStateContainer/getBaseState ()Lnet/minecraft/block/state/IBlockState;[2888,2900]::getBaseState->func_177621_b
+Import: crafttweaker.api.block.IBlock
+Import: gregtech.api.GregTechAPI
+Import: gregtech.api.block.machines.BlockMachine
 Import: gregtech.api.metatileentity.MetaTileEntity
+Import: gregtech.api.metatileentity.interfaces.IHasWorldObjectAndCoords
 Import: gregtech.api.sound.GTSounds
+Import: gregtech.api.unification.material.Material
 Import: gregtech.common.blocks.MetaBlocks
 Import: gregtech.common.metatileentities.steam.SteamAlloySmelter
+Import: gregtech.common.pipelike.itempipe.BlockItemPipe
 Import: net.dries007.tfc.api.registries.TFCRegistries
 Import: net.dries007.tfc.api.types.Rock
 Import: net.dries007.tfc.api.util.FallingBlockManager
 Import: net.dries007.tfc.objects.blocks.stone.BlockRockVariant
 Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.init.Blocks
 Import: net.minecraft.item.crafting.IRecipe
 Import: net.minecraftforge.event.RegistryEvent
 Import: net.minecraftforge.fml.common.Mod
@@ -56,6 +74,9 @@ FOUND CONSTR method tangeherbam/common/machine/FallingMachine/FallingMachine (Ln
 Import: net.dries007.tfc.objects.entity.EntityFallingBlockTFC
 Import: net.minecraft.world.World
 End  Processing: tangeherbam/common/machine/FallingMachine.java
+
+Start Processing: tangeherbam/common/recipes/MachineRecipes.java
+End  Processing: tangeherbam/common/recipes/MachineRecipes.java
 
 Start Processing: tangeherbam/common/recipes/MaterialRecipes.java
 Import: static net.dries007.tfc.api.registries.TFCRegistries.*

@@ -31,14 +31,14 @@ val config: Properties = file("build.properties").inputStream().let {
     return@let prop
 }
 
-val modVersion = config["TGA.version"] as String
+val modVersion = config["TH.version"] as String
 val mcVersion = config["mc.version"] as String
 val forgeVersion = "$mcVersion-${config["forge.version"]}"
 val shortVersion = mcVersion.substring(0, mcVersion.lastIndexOf("."))
 val strippedVersion = shortVersion.replace(".", "") + "0";
 
 version = "$mcVersion-$modVersion"
-group = "TactusGramen"
+group = "TangeHerbam"
 
 configure<JavaPluginConvention> {
     sourceCompatibility = JavaVersion.VERSION_1_8
@@ -46,7 +46,7 @@ configure<JavaPluginConvention> {
 }
 
 configure<BasePluginConvention> {
-    archivesBaseName = "TactusGramenAddon"
+    archivesBaseName = "TangeHerbam"
 }
 
 configure<UserBaseExtension> {
@@ -95,8 +95,8 @@ dependencies {
     "deobfCompile"("team.chisel.ctm:CTM:MC$mcVersion-${config["ctm.version"]}")
 
     "provided"(files("libs/gregtech-1.12.2-${config["gregtech.version"]}.jar"))
-    "provided"(files("libs/TerraFirmaCraft-MC1.12.2-1.7.23.181-deobf.jar"))
-    "provided"(files("libs/GregTech Food Option$mcVersion-${config["gtfo.version"]}.jar"))
+    "provided"(files("libs/TerraFirmaCraft-MC1.12.2-1.7.23.181.jar"))
+    "provided"(files("libs/GregTech+Food+Option$mcVersion-${config["gtfo.version"]}.jar"))
 
     // JUnit testing used for GitHub Actions
     "testImplementation"("junit:junit:${config["junit.version"]}")

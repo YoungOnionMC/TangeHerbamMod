@@ -1,6 +1,6 @@
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [preinit]
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 1ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 0ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [gregtech]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [gregtech]
 [PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 0ms

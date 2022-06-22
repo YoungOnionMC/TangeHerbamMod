@@ -1,21 +1,24 @@
 Unsupposrted library path: C:\Dev\MC\TactumGramenAddon\build\classes\java\api
 Unsupposrted library path: C:\Dev\MC\TactumGramenAddon\build\resources\api
 Symbol range map extraction starting
-Processing 6 files
-startProcessing "tangeherbam/THMod.java" md5: de572206cbd913839a95e5d052a278c8
+Processing 7 files
+startProcessing "tangeherbam/THMod.java" md5: 64a8ef469e0ccbafc5af384dfffffcde
 endProcessing "tangeherbam/THMod.java"
 
-startProcessing "tangeherbam/THValues.java" md5: 3555976fa6295935c32bded93f063e0d
+startProcessing "tangeherbam/THValues.java" md5: ad785c2daba04bdc9c9379ec78ed2744
 endProcessing "tangeherbam/THValues.java"
 
 startProcessing "tangeherbam/client/ClientProxy.java" md5: 775fff6f505fe7e2587c5036c8b7448d
 endProcessing "tangeherbam/client/ClientProxy.java"
 
-startProcessing "tangeherbam/common/CommonProxy.java" md5: cb8f2c73d43cccbd791fdc4ae200ef54
+startProcessing "tangeherbam/common/CommonProxy.java" md5: 68a07483dcb684e79ada47f9b92de431
 endProcessing "tangeherbam/common/CommonProxy.java"
 
 startProcessing "tangeherbam/common/machine/FallingMachine.java" md5: eca3a54e459f0819a29efabfacdc514b
 endProcessing "tangeherbam/common/machine/FallingMachine.java"
+
+startProcessing "tangeherbam/common/recipes/MachineRecipes.java" md5: 0057f8a7c0e97f51d8dfcaafa71481fa
+endProcessing "tangeherbam/common/recipes/MachineRecipes.java"
 
 startProcessing "tangeherbam/common/recipes/MaterialRecipes.java" md5: 365b548a6e97a905bb828402fa003ebf
 endProcessing "tangeherbam/common/recipes/MaterialRecipes.java"

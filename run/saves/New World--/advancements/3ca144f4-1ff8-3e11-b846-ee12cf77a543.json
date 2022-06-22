@@ -1,0 +1,26 @@
+{
+  "gregtech:low_voltage/27_electric_blast_furnace": {
+    "criteria": {
+      "location": "2022-06-21 17:28:21 -0600"
+    },
+    "done": true
+  },
+  "gregtech:ludicrous_voltage/60_fusion": {
+    "criteria": {
+      "location": "2022-06-21 17:28:21 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-06-21 17:28:21 -0600"
+    },
+    "done": true
+  },
+  "tfc:main/root": {
+    "criteria": {
+      "in-game": "2022-06-21 17:28:21 -0600"
+    },
+    "done": true
+  }
+}

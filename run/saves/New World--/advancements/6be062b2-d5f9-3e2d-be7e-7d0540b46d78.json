@@ -1,0 +1,80 @@
+{
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2022-06-13 20:22:14 -0600"
+    },
+    "done": true
+  },
+  "gregtech:low_voltage/27_electric_blast_furnace": {
+    "criteria": {
+      "location": "2022-06-13 20:22:14 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2022-06-13 20:22:14 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2022-06-13 20:22:14 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2022-06-13 20:22:14 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-06-13 20:22:14 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2022-06-13 20:22:14 -0600"
+    },
+    "done": true
+  },
+  "tfc:world/geologist": {
+    "criteria": {
+      "quartzite": "2022-06-13 20:22:14 -0600"
+    },
+    "done": false
+  },
+  "tfc:world/root": {
+    "criteria": {
+      "crafting_table": "2022-06-13 20:22:14 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2022-06-13 20:22:14 -0600"
+    },
+    "done": true
+  },
+  "gregtech:ludicrous_voltage/60_fusion": {
+    "criteria": {
+      "location": "2022-06-13 20:22:14 -0600"
+    },
+    "done": true
+  },
+  "tfc:main/root": {
+    "criteria": {
+      "in-game": "2022-06-13 20:22:14 -0600"
+    },
+    "done": true
+  },
+  "tfc:main/pick_rock": {
+    "criteria": {
+      "quartzite": "2022-06-13 20:22:14 -0600"
+    },
+    "done": true
+  }
+}
