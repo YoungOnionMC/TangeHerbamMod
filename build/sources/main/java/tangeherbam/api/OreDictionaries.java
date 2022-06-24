@@ -1,4 +1,4 @@
-package tangeherbam.common.material;
+package tangeherbam.api;
 
 import com.google.common.base.CaseFormat;
 import gregtech.api.GTValues;

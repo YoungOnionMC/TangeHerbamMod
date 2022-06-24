@@ -1,4 +1,4 @@
-package tangeherbam.common.material;
+package tangeherbam.api.material;
 
 
 import static gregtech.api.unification.material.Materials.*;
@@ -15,15 +15,18 @@ public class Materials {
 
     public static void registerMaterials() {
         Argentite = new Material.Builder(25600, "argentite")
-                .gem()
+                .gem().ore()
+                .color(0x5e5c59)
                 .components(Silver, 2, Sulfur, 1)
                 .build();
         Polybasite = new Material.Builder(25601, "polybasite")
                 .gem()
+                .color(0xE0115F)
                 .components(Silver, 6, Copper, 6, Stibnite, 2, Arsenic, 2, Sulfur, 7, Silver, 9, Copper, 1, Sulfur, 4)
                 .build();
         Proustite = new Material.Builder(25602, "proustite")
                 .gem()
+                .color(0x997570)
                 .components(Silver, 3, Arsenic, 1, Sulfur, 3).build();
     }
 
