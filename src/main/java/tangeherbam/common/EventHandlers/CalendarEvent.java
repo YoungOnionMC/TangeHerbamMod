@@ -33,7 +33,7 @@ public class CalendarEvent {
     public static void onOverworldTick(TickEvent.WorldTickEvent event) {
         if(event.phase == TickEvent.Phase.END && event.world.provider.getDimension() == 0) {
             if(Loader.isModLoaded("tawct")) {
-                if(event.world.getWorldTime() > 3000 && event.world.getWorldTime() < 8000 && !set) {
+                if(event.world.getWorldTime() % (ICalendar.TICKS_IN_DAY / ICalendar.TICK_MULTIPLIER) > 3000 && event.world.getWorldTime() % (ICalendar.TICKS_IN_DAY / ICalendar.TICK_MULTIPLIER) < 8000 && !set) {
                     set = true;
                     int dayOfMonth = CalendarTFC.CALENDAR_TIME.getDayOfMonth();
                     int monthOfYear = CalendarTFC.CALENDAR_TIME.getMonthOfYear().ordinal();
@@ -50,7 +50,7 @@ public class CalendarEvent {
                         }
                     });
                 }
-                if(event.world.getWorldTime() > 8001)
+                if(event.world.getWorldTime() % (ICalendar.TICKS_IN_DAY / ICalendar.TICK_MULTIPLIER) > 8001 && set)
                     set = false;
             }
         }

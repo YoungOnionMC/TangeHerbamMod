@@ -1,7 +1,9 @@
 package tangeherbam.common;
 
 import gregtech.api.metatileentity.MetaTileEntity;
+import gregtech.api.recipes.logic.OverclockingLogic;
 import gregtech.api.sound.GTSounds;
+import gregtech.common.ConfigHolder;
 import gregtech.common.blocks.MetaBlocks;
 import net.dries007.tfc.api.util.FallingBlockManager;
 import net.minecraft.block.state.IBlockState;
