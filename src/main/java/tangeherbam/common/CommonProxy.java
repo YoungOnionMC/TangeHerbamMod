@@ -6,6 +6,7 @@ import gregtech.api.sound.GTSounds;
 import gregtech.common.ConfigHolder;
 import gregtech.common.blocks.MetaBlocks;
 import net.dries007.tfc.api.util.FallingBlockManager;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.crafting.IRecipe;
 import net.minecraftforge.event.RegistryEvent;
@@ -16,6 +17,7 @@ import tangeherbam.THValues;
 
 import tangeherbam.api.material.Materials;
 import tangeherbam.api.OreDictionaries;
+import tangeherbam.api.material.StoneTypes;
 import tangeherbam.common.recipes.OreProcessing;
 
 import static gregtech.api.GregTechAPI.MTE_REGISTRY;
@@ -23,6 +25,7 @@ import static gregtech.api.GregTechAPI.MTE_REGISTRY;
 @Mod.EventBusSubscriber(modid = THValues.MODID)
 public class CommonProxy {
     public void preInit() {
+
         OreDictionaries.registerOrePrefixes();
         //Materials.registerMaterials();
 
@@ -31,15 +34,16 @@ public class CommonProxy {
 
     @SubscribeEvent()
     public static void init(RegistryEvent.Register<IRecipe> event) {
+        // stone types do not work, please dont uncomment
+        //StoneTypes.registerTFCStoneTypes();
         IBlockState state = MetaBlocks.MACHINE.getDefaultState();
+
 
 
         FallingBlockManager.SupportFallablesPair gtMachines = new FallingBlockManager.SupportFallablesPair("GregtechMachines");
         FallingBlockManager.addSupportFallablePairToRegistry(gtMachines);
         for(MetaTileEntity mte : MTE_REGISTRY) {
-            FallingBlockManager.Specification spec = new FallingBlockManager.Specification(true, ()->GTSounds.CHEMICAL_REACTOR);
-            //spec.setResultingState(Blocks.BEDROCK.getDefaultState());
-            //MTE_REGISTRY.getObjectById(MTE_REGISTRY.getIdByObjectName(mte.getHolder().getMetaTileEntity().));
+            FallingBlockManager.Specification spec = new FallingBlockManager.Specification(false, ()-> SoundType.METAL.getPlaceSound());
             gtMachines.registerFallable(state, spec);
         }
 

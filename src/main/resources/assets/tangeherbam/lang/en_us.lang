@@ -1,2 +1,6 @@
 material.argentite=Argentite
 material.polybasite=Polybasite
+
+item.material.oreprefix.oreChunkLarge=Large %s Chunk
+item.material.oreprefix.oreChunkMedium=Medium %s Chunk
+item.material.oreprefix.oreChunkSmall=Fine %s Chunk

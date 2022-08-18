@@ -2,6 +2,7 @@ package tangeherbam.common.EventHandlers;
 
 import net.dries007.tfc.util.calendar.CalendarTFC;
 import net.dries007.tfc.util.calendar.ICalendar;
+import net.minecraft.client.Minecraft;
 import net.minecraftforge.common.DimensionManager;
 import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.Mod;

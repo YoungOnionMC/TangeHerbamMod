@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "tangeherbam",
+    "name": "TangeHerbam",
+    "description": "Core Addon for TangeHerbam",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["YoungOnion"],
+    "credits": "GregoriusT for making GregTech. Tech22, dandannoodlesman, KilaBash, Arch and many more for making CEu.",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": ["gregtech"]
+  }
+]
