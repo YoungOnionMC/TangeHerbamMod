@@ -22,14 +22,14 @@ public class Materials {
     public static Material Gabbro;
     public static Material Shale;
     public static Material Claystone;
-    public static Material Limestone;
+    public static Material LimestoneTFC;
     public static Material Conglomerate;
     public static Material Dolomite;
     public static Material Chert;
     public static Material Chalk;
     public static Material Rhyolite;
     public static Material Dacite;
-    public static Material Slate;
+    public static Material SlateTFC;
     public static Material Phyllite;
     public static Material Schist;
     public static Material Gneiss;
@@ -53,7 +53,7 @@ public class Materials {
         Claystone = new Material.Builder(25622, "claystone")
                 .dust()
                 .build();
-        Limestone = new Material.Builder(25623, "limestone")
+        LimestoneTFC = new Material.Builder(25623, "limestonetfc")
                 .dust()
                 .build();
         Conglomerate = new Material.Builder(25624, "conglomerate")
@@ -74,7 +74,7 @@ public class Materials {
         Dacite = new Material.Builder(25629, "dacite")
                 .dust()
                 .build();
-        Slate = new Material.Builder(25630, "slate")
+        SlateTFC = new Material.Builder(25630, "slatetfc")
                 .dust()
                 .build();
         Phyllite = new Material.Builder(25631, "phyllite")

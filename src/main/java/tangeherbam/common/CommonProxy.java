@@ -35,7 +35,7 @@ public class CommonProxy {
     @SubscribeEvent()
     public static void init(RegistryEvent.Register<IRecipe> event) {
         // stone types do not work, please dont uncomment
-        //StoneTypes.registerTFCStoneTypes();
+        StoneTypes.registerTFCStoneTypes();
         IBlockState state = MetaBlocks.MACHINE.getDefaultState();
 
 

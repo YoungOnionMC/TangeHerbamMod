@@ -82,6 +82,11 @@ repositories {
         name = "CTM"
         setUrl("https://maven.tterrag.com/")
     }
+    maven {
+        setUrl("https://cursemaven.com")
+
+    }
+
 }
 
 dependencies {
@@ -96,7 +101,11 @@ dependencies {
 
     "provided"(files("libs/gregtech-1.12.2-${config["gregtech.version"]}.jar"))
     "provided"(files("libs/TerraFirmaCraft-MC1.12.2-1.7.23.181.jar"))
-    "provided"(files("libs/GregTech+Food+Option$mcVersion-${config["gtfo.version"]}.jar"))
+    //"provided"(files("libs/!mixinbooter-4.2 (2).jar"))
+    //"provided"(files("libs/time-and-wind-ct-1.3+1.12.2.jar"))
+    //"provided"(files("libs/GregTech+Food+Option$mcVersion-${config["gtfo.version"]}.jar"))
+
+    "provided"("curse.maven:time_and_wind_ct-530289:3486947")
 
     // JUnit testing used for GitHub Actions
     "testImplementation"("junit:junit:${config["junit.version"]}")
