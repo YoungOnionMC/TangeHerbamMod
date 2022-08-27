@@ -18,6 +18,7 @@ import tangeherbam.THValues;
 import tangeherbam.api.material.Materials;
 import tangeherbam.api.OreDictionaries;
 import tangeherbam.api.material.StoneTypes;
+import tangeherbam.common.recipes.MaterialProcessing;
 import tangeherbam.common.recipes.OreProcessing;
 
 import static gregtech.api.GregTechAPI.MTE_REGISTRY;
@@ -27,6 +28,7 @@ public class CommonProxy {
     public void preInit() {
 
         OreDictionaries.registerOrePrefixes();
+        Materials.registerGTMetalsAsTFCMetals();
         //Materials.registerMaterials();
 
 
@@ -35,7 +37,7 @@ public class CommonProxy {
     @SubscribeEvent()
     public static void init(RegistryEvent.Register<IRecipe> event) {
         // stone types do not work, please dont uncomment
-        StoneTypes.registerTFCStoneTypes();
+        //StoneTypes.registerTFCStoneTypes();
         IBlockState state = MetaBlocks.MACHINE.getDefaultState();
 
 
@@ -61,7 +63,9 @@ public class CommonProxy {
             gtMachines.registerFallable(pipeBlockState, spec);
         }
 
+        MaterialProcessing.initGeneralOreProcessing();
         OreProcessing.registerAllOreProcessingLines();
+        MaterialProcessing.addGTMetalsToTFCAnvil();
     }
 
 }

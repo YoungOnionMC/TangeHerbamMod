@@ -6,6 +6,7 @@ import gregtech.api.unification.OreDictUnifier;
 import net.dries007.tfc.api.recipes.heat.HeatRecipe;
 import net.dries007.tfc.api.recipes.heat.HeatRecipeMetalMelting;
 import net.dries007.tfc.api.recipes.heat.HeatRecipeSimple;
+import net.dries007.tfc.api.registries.TFCRegistries;
 import net.dries007.tfc.api.registries.TFCRegistryEvent;
 import net.dries007.tfc.api.types.Metal;
 import net.minecraft.util.ResourceLocation;
@@ -36,12 +37,7 @@ public class OreProcessing {
     public static void registerSilverChain() {
 
 
-        RecipeMaps.MACERATOR_RECIPES.recipeBuilder()
-                .input(ore, Galena, 1)
-                .output(LargeChunk, Galena, 4)
-                .EUt(16)
-                .duration(30)
-                .buildAndRegister();
+
 
         RecipeMaps.CHEMICAL_BATH_RECIPES.recipeBuilder()
                 .input(LargeChunk, Galena)

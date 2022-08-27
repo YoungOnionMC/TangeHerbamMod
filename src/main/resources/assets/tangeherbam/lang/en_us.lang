@@ -4,3 +4,9 @@ material.polybasite=Polybasite
 item.material.oreprefix.oreChunkLarge=Large %s Chunk
 item.material.oreprefix.oreChunkMedium=Medium %s Chunk
 item.material.oreprefix.oreChunkSmall=Fine %s Chunk
+item.material.oreprefix.oreRackwheel=%s Rackwheel
+item.material.oreprefix.oreRackwheelPiece=%s Rackwheel Piece
+
+item.tangeherbam.bearing.tin.name=Tin Bearing
+item.tangeherbam.bearing.rosegold.name=Rose Gold Bearing
+item.tangeherbam.bearing.steel.name=Steel Bearing

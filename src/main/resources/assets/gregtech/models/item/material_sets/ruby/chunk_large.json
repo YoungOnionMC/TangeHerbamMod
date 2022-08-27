@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "gregtech:items/material_sets/ruby/chunk_large",
+    "layer1": "gregtech:items/material_sets/ruby/chunk_large_overlay"
+  }
+}

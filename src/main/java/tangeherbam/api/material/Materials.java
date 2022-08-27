@@ -2,21 +2,56 @@ package tangeherbam.api.material;
 
 
 import static gregtech.api.unification.material.Materials.*;
+import static gregtech.api.unification.material.info.MaterialFlags.*;
+import static gregtech.api.unification.ore.OrePrefix.ingot;
+import static net.dries007.tfc.api.types.Metal.Tier.TIER_0;
 import static net.dries007.tfc.api.types.Metal.Tier.TIER_I;
 
+import gregtech.api.unification.OreDictUnifier;
 import gregtech.api.unification.crafttweaker.CTMaterialBuilder;
 import gregtech.api.unification.material.Material;
 import gregtech.api.unification.material.Material.Builder;
 import gregtech.api.unification.material.info.MaterialFlag;
 import gregtech.api.unification.material.properties.OreProperty;
 import gregtech.api.unification.material.properties.PropertyKey;
+import net.dries007.tfc.api.capability.heat.CapabilityItemHeat;
+import net.dries007.tfc.api.capability.heat.IItemHeat;
+import net.dries007.tfc.api.capability.heat.ItemHeatHandler;
+import net.dries007.tfc.api.registries.TFCRegistries;
 import net.dries007.tfc.api.registries.TFCRegistryEvent;
 import net.dries007.tfc.api.types.Metal;
+import net.dries007.tfc.objects.inventory.ingredient.IIngredient;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.Tuple;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import tangeherbam.THValues;
 
+import java.util.*;
+
 public class Materials {
+
+    // Material Flags
+    public static List<MaterialFlag> STANDARDPLATE = new ArrayList<MaterialFlag>(Arrays.asList(GENERATE_PLATE, GENERATE_DENSE, EXCLUDE_BLOCK_CRAFTING_BY_HAND_RECIPES));
+    public static List<MaterialFlag> STANDARDWIREFINE = new ArrayList<MaterialFlag>(Arrays.asList(GENERATE_FINE_WIRE));
+    public static List<MaterialFlag> STANDARDFOIL = new ArrayList<MaterialFlag>(Arrays.asList(GENERATE_FOIL));
+    public static List<MaterialFlag> STANDARDROD = new ArrayList<MaterialFlag>(Arrays.asList(GENERATE_ROD, GENERATE_LONG_ROD, GENERATE_BOLT_SCREW));
+    public static List<MaterialFlag> STANDARDROTOR = new ArrayList<MaterialFlag>(Arrays.asList(GENERATE_ROTOR, GENERATE_RING));
+    public static List<MaterialFlag> STANDARDGEAR = new ArrayList<MaterialFlag>(Arrays.asList(GENERATE_GEAR, GENERATE_SMALL_GEAR));
+    public static List<MaterialFlag> STANDARDSPRING = new ArrayList<MaterialFlag>(Arrays.asList(GENERATE_SPRING, GENERATE_SPRING_SMALL));
+    public static List<MaterialFlag> STANDARDROUND = new ArrayList<MaterialFlag>(Arrays.asList(GENERATE_ROUND));
+    public static List<MaterialFlag> STANDARDLENS = new ArrayList<MaterialFlag>(Arrays.asList(GENERATE_LENS));
+
+    public static List<MaterialFlag> STANDARDCASING = new ArrayList<MaterialFlag>(Arrays.asList(GENERATE_FRAME));
+    public static List<MaterialFlag> STANDARDGEM = new ArrayList<MaterialFlag>(Arrays.asList(GENERATE_LENS, HIGH_SIFTER_OUTPUT));
+
+    @SafeVarargs
+    public static List<MaterialFlag> SetMaterialFlags(List<MaterialFlag>... materials) {
+        List<MaterialFlag> result = new ArrayList<MaterialFlag>();
+        for(List<MaterialFlag> x : materials) {
+            result.addAll(x);
+        }
+        return result;
+    }
 
     // Stones
     public static Material Gabbro;
@@ -112,23 +147,49 @@ public class Materials {
                 .ore().gem()
                 .components(Carbon, 1, Water, 4, Ash, 1).build();
 
+
+
         Gallium.setProperty(PropertyKey.ORE, new OreProperty(1, 1, false));
-
         Manganese.setProperty(PropertyKey.ORE, new OreProperty(1, 1, false));
-
         Uranium235.setProperty(PropertyKey.ORE, new OreProperty(1, 1, false));
-
         Rutile.setProperty(PropertyKey.ORE, new OreProperty(1, 1, false));
+
+        Copper.addFlags(GENERATE_GEAR, GENERATE_SMALL_GEAR);
     }
 
 
-    public static final ResourceLocation MERCURY = new ResourceLocation(THValues.MODID, "mercury");
-    @SubscribeEvent
-    public static void registerGTMetalsAsTFCMetals(TFCRegistryEvent.RegisterPreBlock<Metal> event) {
-        event.getRegistry().registerAll(
-                new Metal(MERCURY, TIER_I, false, .14f, 580, 0xffffffff, null, null)
+    public static class GTMetal {
+        public Material mat;
+        public float specificHeat;
+        public float meltingPoint;
 
-        );
+        public GTMetal(Material mat, float specificHeat, float melt) {
+            this.mat = mat;
+            this.specificHeat = specificHeat;
+            this.meltingPoint = melt;
+        }
+    };
+
+    public static Set<GTMetal> gtMetals = new HashSet<>();
+
+    public static void registerGTMetalsAsTFCMetals() {
+        gtMetals.add(new GTMetal(WroughtIron, .5f, 1538f));
+        gtMetals.add(new GTMetal(Steel, .466f, 1540f));
+        gtMetals.add(new GTMetal(Gold, .126f, 1064f));
+        gtMetals.add(new GTMetal(StainlessSteel, .5f, 1530));
+        //gtMetals.add(new GTMetal(Iron, .35f, 7));
+       // gtMetals.add(new GTMetal(Iron, .35f, 7));
+        //gtMetals.add(new GTMetal(Iron, .35f, 7));
+        //gtMetals.add(new GTMetal(Iron, .35f, 7));
+        //gtMetals.add(new GTMetal(Iron, .35f, 7));
+        //gtMetals.add(new GTMetal(Iron, .35f, 7));
+        //gtMetals.add(new GTMetal(Iron, .35f, 7));
+
+        for(GTMetal metal : gtMetals) {
+
+            CapabilityItemHeat.CUSTOM_ITEMS.put(IIngredient.of(OreDictUnifier.get(ingot, metal.mat)), () -> new ItemHeatHandler(null, metal.specificHeat, metal.meltingPoint));
+            //TFCRegistries.METALS.register(new Metal(new ResourceLocation(THValues.MODID, metal.mat.getUnlocalizedName()), TIER_0, true, metal.specificHeat, metal.meltingPoint, metal.mat.getMaterialRGB(), null, null));
+        }
     }
 
 
