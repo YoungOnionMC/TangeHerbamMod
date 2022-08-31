@@ -28,7 +28,7 @@ public class CommonProxy {
     public void preInit() {
 
         OreDictionaries.registerOrePrefixes();
-        Materials.registerGTMetalsAsTFCMetals();
+        //Materials.registerGTMetalsAsTFCMetals();
         //Materials.registerMaterials();
 
 
@@ -39,7 +39,7 @@ public class CommonProxy {
         // stone types do not work, please dont uncomment
         //StoneTypes.registerTFCStoneTypes();
         IBlockState state = MetaBlocks.MACHINE.getDefaultState();
-
+        Materials.registerGTMetalsAsTFCMetals();
 
 
         FallingBlockManager.SupportFallablesPair gtMachines = new FallingBlockManager.SupportFallablesPair("GregtechMachines");

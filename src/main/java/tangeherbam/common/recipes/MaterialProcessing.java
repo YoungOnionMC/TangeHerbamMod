@@ -21,6 +21,7 @@ import net.dries007.tfc.util.skills.SmithingSkill;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import tangeherbam.api.OreDictionaries;
+import tangeherbam.api.material.Materials;
 
 
 import java.util.HashMap;
@@ -86,10 +87,11 @@ public class MaterialProcessing {
 
     public static void makePlates(OrePrefix prefix, Material material, IngotProperty property) {
         Metal.Tier metalTier = Metal.Tier.TIER_0;
-        if(metals.containsKey(material))
-            metalTier = metals.get(material);
+        metalTier = Materials.getMetal(material).tier;
 
         if(material.hasFlag(GENERATE_PLATE) && metalTier != Metal.Tier.TIER_0) {
+            ModHandler.removeRecipes(OreDictUnifier.get(plate, material));
+
             TFCRegistries.WELDING.register(new WeldingRecipe(new ResourceLocation(MODID, material.getUnlocalizedName() + "_double_ingot"), IIngredient.of(OreDictUnifier.get(ingot, material)), IIngredient.of(OreDictUnifier.get(ingot, material)), OreDictUnifier.get(IngotDouble, material), metalTier));
             TFCRegistries.ANVIL.register(new AnvilRecipe(new ResourceLocation(MODID, material.getUnlocalizedName() + "_plate"),
                     IIngredient.of(OreDictUnifier.get(OreDictionaries.IngotDouble, material)), OreDictUnifier.get(plate, material), metalTier, SmithingSkill.Type.GENERAL, DRAW_THIRD_LAST, DRAW_SECOND_LAST, SHRINK_LAST));
@@ -99,8 +101,7 @@ public class MaterialProcessing {
 
     public static void makeRods(OrePrefix prefix, Material material, IngotProperty property) {
         Metal.Tier metalTier = Metal.Tier.TIER_0;
-        if(metals.containsKey(material))
-            metalTier = metals.get(material);
+        metalTier = Materials.getMetal(material).tier;
 
         if(material.hasFlag(GENERATE_ROD) && metalTier != Metal.Tier.TIER_0) {
             TFCRegistries.ANVIL.register(new AnvilRecipe(new ResourceLocation(MODID, material.getUnlocalizedName() + "_rod"),
@@ -113,8 +114,7 @@ public class MaterialProcessing {
 
     public static void makeGears(OrePrefix prefix, Material material, IngotProperty property) {
         Metal.Tier metalTier = Metal.Tier.TIER_0;
-        if(metals.containsKey(material))
-            metalTier = metals.get(material);
+        metalTier = Materials.getMetal(material).tier;
 
         IIngredient<ItemStack> bearing;
         if(metalTier.ordinal() <= Metal.Tier.TIER_II.ordinal())
@@ -147,8 +147,7 @@ public class MaterialProcessing {
 
     public static void makeRounds(OrePrefix prefix, Material material, IngotProperty property) {
         Metal.Tier metalTier = Metal.Tier.TIER_0;
-        if(metals.containsKey(material))
-            metalTier = metals.get(material);
+        metalTier = Materials.getMetal(material).tier;
 
         if(material.hasFlag(GENERATE_ROUND) && metalTier != Metal.Tier.TIER_0) {
             TFCRegistries.ANVIL.register(new AnvilRecipe(new ResourceLocation(MODID, material.getUnlocalizedName() + "_round"),
@@ -158,8 +157,7 @@ public class MaterialProcessing {
 
     public static void makeSprings(OrePrefix prefix, Material material, IngotProperty property) {
         Metal.Tier metalTier = Metal.Tier.TIER_0;
-        if(metals.containsKey(material))
-            metalTier = metals.get(material);
+        metalTier = Materials.getMetal(material).tier;
 
         if(material.hasFlag(GENERATE_SPRING) && metalTier != Metal.Tier.TIER_0) {
             TFCRegistries.ANVIL.register(new AnvilRecipe(new ResourceLocation(MODID, material.getUnlocalizedName() + "_spring"),
@@ -174,8 +172,7 @@ public class MaterialProcessing {
 
     public static void makeRotors(OrePrefix prefix, Material material, IngotProperty property) {
         Metal.Tier metalTier = Metal.Tier.TIER_0;
-        if(metals.containsKey(material))
-            metalTier = metals.get(material);
+        metalTier = Materials.getMetal(material).tier;
 
         if(material.hasFlag(GENERATE_ROTOR) && metalTier != Metal.Tier.TIER_0) {
             TFCRegistries.ANVIL.register(new AnvilRecipe(new ResourceLocation(MODID, material.getUnlocalizedName() + "_rotor_blade"),
@@ -195,48 +192,6 @@ public class MaterialProcessing {
     public static Map<Material, Metal.Tier> metals = new HashMap<Material, Metal.Tier>();
 
     public static void initGTMetalTiers() {
-        metals.put(Iron, Metal.Tier.TIER_III);
-        metals.put(WroughtIron, Metal.Tier.TIER_III);
-        metals.put(Steel, Metal.Tier.TIER_IV);
-        metals.put(BlackSteel, Metal.Tier.TIER_V);
-        metals.put(VanadiumSteel, Metal.Tier.TIER_V);
-        metals.put(RedSteel, Metal.Tier.TIER_VI);
-        metals.put(BlueSteel, Metal.Tier.TIER_VI);
-        metals.put(Bronze, Metal.Tier.TIER_II);
-        metals.put(BismuthBronze, Metal.Tier.TIER_II);
-        metals.put(BlackBronze, Metal.Tier.TIER_II);
-        metals.put(Gold, Metal.Tier.TIER_III);
-        metals.put(RoseGold, Metal.Tier.TIER_IV);
-        metals.put(Silver, Metal.Tier.TIER_III);
-        metals.put(SterlingSilver, Metal.Tier.TIER_IV);
-        metals.put(Electrum, Metal.Tier.TIER_IV);
-        metals.put(DamascusSteel, Metal.Tier.TIER_V);
-        metals.put(Copper, Metal.Tier.TIER_I);
-        metals.put(AnnealedCopper, Metal.Tier.TIER_II);
-        metals.put(Tin, Metal.Tier.TIER_I);
-        metals.put(Bismuth, Metal.Tier.TIER_I);
-        metals.put(Lead, Metal.Tier.TIER_I);
-        metals.put(Magnesium, Metal.Tier.TIER_I);
-        metals.put(Gallium, Metal.Tier.TIER_I);
-        metals.put(Aluminium, Metal.Tier.TIER_IV);
-        metals.put(Chrome, Metal.Tier.TIER_IV);
-        metals.put(Manganese, Metal.Tier.TIER_II);
-        metals.put(Neodymium, Metal.Tier.TIER_VI);
-        metals.put(Niobium, Metal.Tier.TIER_VI);
-        metals.put(Titanium, Metal.Tier.TIER_VI);
-        metals.put(Platinum, Metal.Tier.TIER_V);
-        metals.put(Tungsten, Metal.Tier.TIER_VI);
-        metals.put(Uranium235, Metal.Tier.TIER_III);
-        metals.put(Zinc, Metal.Tier.TIER_I);
-        metals.put(Brass, Metal.Tier.TIER_I);
-        metals.put(CobaltBrass, Metal.Tier.TIER_IV);
-        metals.put(Cobalt, Metal.Tier.TIER_III);
-        metals.put(Invar, Metal.Tier.TIER_III);
-        metals.put(Kanthal, Metal.Tier.TIER_IV);
-        metals.put(Nichrome, Metal.Tier.TIER_V);
-        metals.put(StainlessSteel, Metal.Tier.TIER_V);
-        metals.put(HSSG, Metal.Tier.TIER_VI);
-        metals.put(HSSE, Metal.Tier.TIER_VI);
-        metals.put(HSSS, Metal.Tier.TIER_VI);
+
     }
 }
